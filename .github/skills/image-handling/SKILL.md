@@ -69,6 +69,33 @@ foreach ($size in 16,32,64,128,256,512) {
 | Icons | 50KB | < 10KB |
 | Favicon | 10KB | < 5KB |
 
+## Banner Sizing Pipeline
+
+Most image models (Flux, Ideogram, etc.) **ignore `--width`/`--height` params** and output 1024×1024 by default.
+Always finalize exact banner dimensions with ImageMagick after generation:
+
+```powershell
+# Resize + crop to exact dimensions (e.g. README banner 1536×512)
+# ^ = fill mode: scales up to cover, then crops to center
+magick input.png -resize 1536x512^ -gravity Center -extent 1536x512 assets/banner.png
+
+# Verify
+magick identify assets/banner.png
+# → PNG 1536x512 ...
+```
+
+**Pattern**: Generate with aspect ratio param (`3:1`), then use ImageMagick to lock exact pixel dimensions.
+
+## GitHub Repository Management
+
+```powershell
+# Rename a GitHub repository (requires gh CLI)
+gh repo rename <NewName> --repo owner/OldName --yes
+
+# Update local remote after rename
+git remote set-url origin https://github.com/owner/NewName.git
+```
+
 ## Optimization
 
 ```powershell
@@ -108,7 +135,7 @@ Match user intent to the right model. When a user names a specific model or desc
 | **Ideogram v2** | `ideogram-ai/ideogram-v2` | $0.08 | Banner typography (proven, stable API) | "ideogram v2", "banner with text" |
 | **Ideogram v3 Turbo** | `ideogram-ai/ideogram-v3-turbo` | $0.03 | Fast typography generation | "ideogram turbo", "fast text image", "ideogram v3" |
 | **Ideogram v3 Balanced** | `ideogram-ai/ideogram-v3-balanced` | $0.06 | Balanced quality/speed typography | "ideogram balanced" |
-| **Ideogram v3 Quality** | `ideogram-ai/ideogram-v3-quality` | $0.09 | Highest quality typography | "ideogram quality", "best ideogram" |
+| **Ideogram v3 Quality** | `ideogram-ai/ideogram-v3-quality` | $0.09 | ⚠️ Known silent failures (returns empty error) — use Turbo instead | "ideogram quality", "best ideogram" |
 | **Nano-Banana Pro** | `google/nano-banana-pro` | $0.025 | Face-consistent portraits with reference photos (up to 14 refs), 4K | "nano-banana", "face consistency", "portrait", "reference photo" |
 | **Nano-Banana 2** | `google/nano-banana-2` | $0.067/1K | Faster alternative to nano-banana-pro, same 14-ref API | "nano-banana-2", "fast portrait", "gemini flash image" |
 | **SDXL** | `stability-ai/sdxl` | $0.009 | Classic diffusion, LoRA styles | "sdxl", "stable diffusion", "stable diffusion xl" |
@@ -121,7 +148,7 @@ Match user intent to the right model. When a user names a specific model or desc
 
 - **"quick" / "test" / "prototype"** → Flux Schnell ($0.003, 4 steps)
 - **"high quality" / "production"** → Flux 1.1 Pro ($0.04) or Flux 2 Pro for multi-ref
-- **Text must appear in the image** → Ideogram v3 Turbo ($0.03) or v3 Quality ($0.09); v2 still works
+- **Text must appear in the image** → Ideogram v3 Turbo ($0.03) or v2 ($0.08); ⚠️ v3 Quality fails silently
 - **Simple/fast text in image** → Ideogram v3 Turbo ($0.03, fastest + cheapest)
 - **Edit an existing image** → Flux Kontext Pro ($0.04, text-prompted editing)
 - **Premium image editing** → Flux Kontext Max ($0.08, better typography in edits)

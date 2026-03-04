@@ -443,8 +443,8 @@ node generate-image.js "abstract gradient background, deep purple to teal, soft 
 # 2. Add text overlay (GPT Image excels at text)
 node generate-image.js "add bold white text 'THE FUTURE OF AI' centered on this background" --model gptimage --image ./media/*flux2max*.png
 
-# 3. Alternatively, use Ideogram for typography
-node generate-image.js "blog banner with title 'The Future of AI' in modern sans-serif, gradient purple-teal background" --model ideoqual --aspect 16:9
+# 3. Alternatively, use Ideogram for typography (ideoturbo — ideoqual fails silently)
+node generate-image.js "blog banner with title 'The Future of AI' in modern sans-serif, gradient purple-teal background" --model ideoturbo --aspect 16:9
 ```
 
 ---
@@ -458,7 +458,7 @@ node generate-image.js "blog banner with title 'The Future of AI' in modern sans
 | Image doesn't match prompt | Model missed key details | Front-load important details; be specific about subject first |
 | Wrong style | Model default aesthetic | Use `--style` (recraft) or specify style in prompt; try a different model |
 | Hands / fingers look wrong | Common AI limitation | Use `--negative "extra fingers, deformed hands"`; try `gptimage` or `imagen4` |
-| Text in image is garbled | Most models can't render text | Use `gptimage`, `ideoturbo`, or `ideoqual` — they handle text well |
+| Text in image is garbled | Most models can't render text | Use `gptimage` or `ideoturbo` — they handle text well (`ideoqual` fails silently) |
 | Image is too dark / bright | Prompt lighting mismatch | Explicitly state "well-lit", "bright studio lighting", etc. |
 | Background is distracting | Prompt didn't specify background | Add "clean white background" or "blurred bokeh background" |
 | Batch outputs too similar | Low diversity seed | Remove `--seed` for random variation; change model |
