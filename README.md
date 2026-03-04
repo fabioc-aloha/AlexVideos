@@ -237,6 +237,7 @@ AlexVideos/
 │   ├── generate-sticker-print.md
 │   ├── 3d-printing-services-guide.md
 │   ├── 3d-design-to-print-workflow.md
+│   ├── sticker-print-production-workflow.md
 │   ├── video-production-workflow.md
 │   ├── image-creation-workflow.md
 │   ├── audio-production-workflow.md
