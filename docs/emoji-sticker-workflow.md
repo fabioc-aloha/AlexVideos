@@ -256,7 +256,7 @@ flowchart TD
 
 | Platform | Size | Format | Max File Size | Notes |
 |----------|------|--------|---------------|-------|
-| **Discord** | 128×128 px | PNG/GIF | 256 KB | 50 slots per server (non-Nitro) |
+| **Discord** | 128×128 px | PNG/GIF/JPG/WEBP | 256 KB | 50 static + 50 animated with boosts |
 | **Slack** | 128×128 px | PNG/GIF/JPG | 128 KB | Square format required |
 | **Telegram** | 512×512 px | WebP/PNG | 512 KB | Static sticker max 512 KB |
 | **Telegram Animated** | 512×512 px | TGS (Lottie) | 64 KB | Vector animation only |

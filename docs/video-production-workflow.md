@@ -451,10 +451,10 @@ node generate-edit-video.js --model merge --video ./media/shot1.mp4 --extra ./me
 | Platform | Aspect Ratio | Max Duration | Resolution | Format |
 |----------|-------------|-------------|------------|--------|
 | YouTube | 16:9 | 12 hours | 1080p–4K | MP4 |
-| TikTok | 9:16 | 10 min | 1080p | MP4 |
-| Instagram Reels | 9:16 | 90s | 1080p | MP4 |
-| Instagram Feed | 1:1 or 4:5 | 60s | 1080p | MP4 |
-| Twitter/X | 16:9 or 1:1 | 2 min 20s | 1080p | MP4 |
+| TikTok | 9:16 | 60 min (desktop) | 1080p | MP4 |
+| Instagram Reels | 9:16 | 15 min (≤ 90s recommended) | 1080p | MP4 |
+| Instagram Feed | 1:1 or 4:5 | 60 min | 1080p | MP4 |
+| Twitter/X | 16:9 or 1:1 | 2 min 20s (free) | 1080p | MP4 |
 | LinkedIn | 16:9 or 1:1 | 10 min | 1080p | MP4 |
 
 ---
@@ -592,6 +592,8 @@ node generate-edit-video.js --model avmerge --video ./media/*merge*.mp4 --audio 
 | `wan` | Cheapest text-to-video, auto audio | Image-to-video |
 | `ray2` / `rayflash` | Luma ecosystem | Long clips |
 | `hailuo` / `hailuo23` | Unique MiniMax style | Aspect ratio flexibility |
+| `kling26` | Kling ecosystem, auto audio | Newest features |
+| `kling3omni` | Kling v3 omni-model, auto audio | Budget iterations |
 | `pixverse` | Auto audio, unique aesthetic | Budget constraints |
 
 ### Voice Models — When to Use Each
