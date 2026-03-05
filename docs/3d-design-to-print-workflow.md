@@ -1,6 +1,6 @@
-![Banner](../assets/banner-3d-print.png)
-
 # From Idea to Physical Object — The Complete 3D Design-to-Print Workflow
+
+![Banner](../assets/banner-3d-print.png)
 
 A step-by-step manual covering the full pipeline: concept → reference image → AI-generated 3D model → print-ready file → slicing → physical print. Uses the AlexMedia CLI toolkit throughout.
 
@@ -115,7 +115,7 @@ node generate-edit-image.js "remove the handle, make the base wider" --model kon
 ### Reference Image Best Practices
 
 | Guideline | Why |
-|-----------|-----|
+| ----------- | ----- |
 | **White or plain background** | 3D models confuse busy backgrounds with geometry |
 | **Single object, centered** | Multi-object scenes produce messy meshes |
 | **Good lighting, no strong shadows** | Shadows create false depth / holes in mesh |
@@ -168,7 +168,7 @@ flowchart TD
 ### 2a. Choose Your Model
 
 | Goal | Recommended Model | Command |
-|------|-------------------|---------|
+| ------ | ------------------- | --------- |
 | Best all-around quality | `trellis` | `node generate-3d.js --model trellis --image ./ref.png --stl` |
 | Highest detail, PBR materials | `rodin` | `node generate-3d.js --model rodin --image ./ref.png --stl --quality high` |
 | Multi-view precision | `hunyuan2mv` | `node generate-3d.js --model hunyuan2mv --front ./f.png --back ./b.png --stl` |
@@ -192,6 +192,7 @@ node generate-3d.js --model hunyuan2mv --front ./front.png --back ./back.png --l
 ```
 
 The `--stl` flag works in two ways:
+
 - **Native STL models** (`rodin`, `hunyuan2mv`): Requests STL directly from the API
 - **Other models** (`trellis`, `hunyuan`, etc.): Downloads GLB, then converts locally to STL
 
@@ -200,7 +201,7 @@ Output lands in `./media/` as both the 3D file and a JSON report with generation
 ### 2c. Tips for Print-Ready Generation
 
 | Tip | Detail |
-|-----|--------|
+| ----- | -------- |
 | Use `--quality high` or `extra-high` on Rodin | Higher quality = denser mesh = smoother prints |
 | Use `--faces 40000` or higher on Hunyuan | More faces = smoother curves |
 | Use `--meshmode Triangle` on Rodin | Ensures manifold triangle mesh (slicers prefer this) |
@@ -251,7 +252,7 @@ AI-generated meshes often have issues that will cause print failures. **Always i
 ### 3a. Common Mesh Issues
 
 | Issue | Symptom in Slicer | Fix |
-|-------|-------------------|-----|
+| ------- | ------------------- | ----- |
 | **Non-manifold edges** | Slicer shows red/yellow warnings | Auto-repair in Meshmixer or PrusaSlicer |
 | **Holes in mesh** | Missing walls in slice preview | Fill holes in Meshmixer (Analysis → Inspector) |
 | **Inverted normals** | Slicer treats solid as hollow | Flip normals in Blender (Mesh → Normals → Recalculate) |
@@ -266,6 +267,7 @@ AI-generated meshes often have issues that will cause print failures. **Always i
 AI models have no inherent scale. You **must** set the physical size.
 
 **In PrusaSlicer / Cura / BambuStudio:**
+
 1. Import STL
 2. Look at the dimensions panel (usually bottom-right)
 3. Scale uniformly until the longest axis matches your desired real size
@@ -274,7 +276,7 @@ AI models have no inherent scale. You **must** set the physical size.
 **Common scales:**
 
 | Object Type | Typical Size | Scale Factor (from ~10cm AI output) |
-|-------------|-------------|--------------------------------------|
+| ------------- | ------------- | -------------------------------------- |
 | Miniature / figurine | 25–35 mm tall | 0.25–0.35× |
 | Chess piece | 40–80 mm tall | 0.4–0.8× |
 | Desk ornament | 80–150 mm | 0.8–1.5× |
@@ -286,7 +288,7 @@ AI models have no inherent scale. You **must** set the physical size.
 Thin walls are the #1 cause of failed prints. Minimum wall thickness depends on technology:
 
 | Technology | Minimum Wall | Recommended Wall |
-|------------|-------------|-----------------|
+| ------------ | ------------- | ----------------- |
 | FDM | 1.2 mm (3 perimeters × 0.4 mm nozzle — adjust for your nozzle size) | 1.6–2.0 mm |
 | SLS / MJF | 0.8 mm | 1.2–1.5 mm |
 | SLA / DLP | 0.6 mm | 1.0–1.5 mm |
@@ -314,6 +316,7 @@ flowchart LR
 ```
 
 For quick fixes only, most slicers can auto-repair on import:
+
 - **PrusaSlicer**: Automatically repairs on import (check console log)
 - **Cura**: Mesh Fixes → Union Overlapping Volumes
 - **BambuStudio**: Automatic repair on import
@@ -329,7 +332,7 @@ Slicing converts your 3D model into G-code (movement instructions for your print
 AI meshes are often irregular. These settings help compensate:
 
 | Setting | Recommended Value | Why |
-|---------|-------------------|-----|
+| --------- | ------------------- | ----- |
 | **Layer height** | 0.16–0.20 mm | Good balance of detail and speed |
 | **Perimeters / walls** | 3–4 | Compensates for thin-wall issues |
 | **Infill** | 15–20% (gyroid or grid) | Enough strength without wasting material |
@@ -346,7 +349,7 @@ AI meshes are often irregular. These settings help compensate:
 How you orient the model on the build plate dramatically affects quality:
 
 | Priority | Strategy |
-|----------|----------|
+| ---------- | ---------- |
 | **Minimize supports** | Rotate so overhangs face up or are ≤ 45° |
 | **Best surface quality** | Put the most visible face away from the build plate |
 | **Strength** | Layers should run perpendicular to stress direction |
@@ -403,11 +406,12 @@ flowchart TD
 ### 5a. Home / Desktop Printer
 
 | Technology | Printer Examples | Best For | Material Cost |
-|------------|-----------------|----------|---------------|
+| ------------ | ----------------- | ---------- | --------------- |
 | **FDM** | Bambu Lab P1S, Prusa MK4S, Ender 3 | Prototypes, large parts | $15–30/kg |
 | **Resin (SLA/DLP)** | Elegoo Saturn 4, Anycubic Photon | High detail, miniatures | $30–60/L |
 
 **FDM Tips for AI Models:**
+
 - Use PLA for initial test prints (easiest to work with)
 - PETG for functional parts (stronger, heat-resistant)
 - Enable "Detect Thin Walls" in slicer settings
@@ -415,6 +419,7 @@ flowchart TD
 - Print a small-scale test (50%) first to catch issues early
 
 **Resin Tips for AI Models:**
+
 - Best for miniatures and high-detail objects
 - Anti-aliasing ON for smoother curved surfaces
 - Hollow the model to save resin (minimum 2 mm wall thickness)
@@ -440,6 +445,7 @@ node generate-3d-print.js --file ./media/model.stl --service pcbway
 ```
 
 **When to use online services:**
+
 - You don't own a printer
 - You need metal, nylon, or specialty materials
 - You need certified / production-grade quality
@@ -499,7 +505,7 @@ flowchart LR
 ### 6a. FDM Post-Processing
 
 | Step | Method | When |
-|------|--------|------|
+| ------ | -------- | ------ |
 | **Support removal** | Needle-nose pliers, flush cutters | Always (if supports used) |
 | **Sanding** | 120 → 220 → 400 → 600 grit | When surface finish matters |
 | **Filling layer lines** | Bondo spot putty or filler primer | Cosmetic pieces |
@@ -512,7 +518,7 @@ flowchart LR
 ### 6b. Resin Post-Processing
 
 | Step | Method | When |
-|------|--------|------|
+| ------ | -------- | ------ |
 | **Washing** | IPA or water (water-washable resin) | Always — 5–10 min (ultrasonic) or 10–20 min (manual agitation) |
 | **UV curing** | UV lamp / sunlight, 15–60 min (per resin datasheet) | Always — hardens the surface |
 | **Support removal** | Flush cutters (before or after cure) | Always |
@@ -524,7 +530,7 @@ flowchart LR
 For objects too large for one print, or models with moving parts:
 
 | Join Method | Best For | Strength |
-|-------------|----------|----------|
+| ------------- | ---------- | ---------- |
 | **Super glue (CA)** | Small parts, PLA, quick bond | Medium |
 | **Epoxy** | Structural joints, load-bearing | High |
 | **Friction welding** (3D pen) | PLA-to-PLA, gap filling | Medium-High |
@@ -659,7 +665,7 @@ node generate-3d.js --model rodin --image ./media/*nanapro*.png --stl --quality 
 ### Generation Issues
 
 | Problem | Cause | Solution |
-|---------|-------|----------|
+| --------- | ------- | ---------- |
 | 3D model looks nothing like the reference | Poor reference image | Use clean background, centered object, good lighting |
 | Model is very low-poly / blocky | Low face count | Use `--faces 40000+` or `--quality high` |
 | Missing features (holes, thin parts) | AI couldn't interpret thin geometry | Try a different model, or edit the reference to exaggerate features |
@@ -669,7 +675,7 @@ node generate-3d.js --model rodin --image ./media/*nanapro*.png --stl --quality 
 ### Print Issues
 
 | Problem | Cause | Solution |
-|---------|-------|----------|
+| --------- | ------- | ---------- |
 | Slicer shows warnings / red areas | Non-manifold mesh | Repair in Meshmixer (Analysis → Inspector) |
 | Nothing prints / empty G-code | Mesh is too small or inverted normals | Scale up; recalculate normals in Blender |
 | Supports won't detach cleanly | Wrong support type or too dense | Switch to tree supports; increase Z distance |
@@ -683,7 +689,7 @@ node generate-3d.js --model rodin --image ./media/*nanapro*.png --stl --quality 
 ### Online Service Issues
 
 | Problem | Cause | Solution |
-|---------|-------|----------|
+| --------- | ------- | ---------- |
 | "File not printable" error | Non-manifold or degenerate mesh | Repair mesh before uploading |
 | Price is extremely high | Model too large or too much volume | Hollow the model; reduce scale; try different material |
 | "Minimum wall thickness" warning | Thin walls below service tolerance | Thicken walls to ≥ 1.0 mm |
@@ -692,7 +698,7 @@ node generate-3d.js --model rodin --image ./media/*nanapro*.png --stl --quality 
 ### CLI / Script Issues (generate-3d.js)
 
 | Problem | Cause | Solution |
-|---------|-------|----------|
+| --------- | ------- | ---------- |
 | `404 Not Found` on predictions | Community model called without version hash | Pin `owner/model:sha256hash` — fetch latest hash from `/v1/models/owner/model/versions` |
 | `url.startsWith is not a function` | Replicate SDK returns `FileOutput` objects, not strings | Normalize via `String(item)` — `FileOutput.toString()` returns the URL |
 | `mesh_mode must be one of Quad, Raw` | `--meshmode Triangle` is invalid for Rodin | Use `--meshmode Quad` (clean topology) or `--meshmode Raw` (max detail) |
@@ -703,6 +709,7 @@ node generate-3d.js --model rodin --image ./media/*nanapro*.png --stl --quality 
 **AI 3D models always output a ~1mm bounding box.** The model contains no real-world scale information. Always scale before slicing or ordering.
 
 **Quick CLI scale** (no extra tools needed):
+
 ```bash
 # After generating, scale with Node.js inline — example for 120mm tall object
 node -e "
@@ -725,7 +732,7 @@ Or open in PrusaSlicer → right-click model → Scale → set Z to 120mm → lo
 ### Free
 
 | Software | Purpose | Platform |
-|----------|---------|----------|
+| ---------- | --------- | ---------- |
 | [PrusaSlicer](https://www.prusa3d.com/prusaslicer/) | FDM/SLA slicing, auto-repair | Windows, Mac, Linux |
 | [Cura](https://ultimaker.com/software/ultimaker-cura/) | FDM slicing, extensive plugin ecosystem | Windows, Mac, Linux |
 | [BambuStudio](https://bambulab.com/en/download/studio) | FDM slicing (Bambu Lab printers) | Windows, Mac |
@@ -736,7 +743,7 @@ Or open in PrusaSlicer → right-click model → Scale → set Z to 120mm → lo
 ### Online
 
 | Tool | Purpose | URL |
-|------|---------|-----|
+| ------ | --------- | ----- |
 | [Tinkercad](https://www.tinkercad.com/) | Beginner-friendly 3D modeling | Browser |
 | [MeshLab](https://www.meshlab.net/) | Mesh processing and repair | Windows, Mac, Linux |
 | [3D Viewer Online](https://3dviewer.net/) | Quick STL/OBJ/GLB preview | Browser |
@@ -745,7 +752,7 @@ Or open in PrusaSlicer → right-click model → Scale → set Z to 120mm → lo
 
 ## Quick Reference Card
 
-```
+```text
 GENERATE REFERENCE IMAGE
   node generate-image.js "<description>, white background" --model imagen4
 

@@ -32,7 +32,7 @@ node generate-3d.js --model trellis --image ./figurine.png --stl
 ## CLI Options
 
 | Option | Description | Default |
-|--------|-------------|---------|
+| -------- | ------------- | --------- |
 | `--model <name>` | 3D model to use | `trellis` |
 | `--image <path>` | Input image for image-to-3D | — |
 | `--seed <n>` | Random seed | — |
@@ -71,7 +71,7 @@ node generate-3d.js --model trellis --image ./figurine.png --stl
 ## Models
 
 | Key | Replicate ID | Name | Cost | Native STL |
-|-----|-------------|------|------|:----------:|
+| ----- | ------------- | ------ | ------ | :----------: |
 | `trellis` | `firtoz/trellis` | TRELLIS | per-second GPU | — (GLB→STL) |
 | `rodin` | `hyper3d/rodin` | Rodin Gen-2 | $0.40/output | ✅ |
 | `hunyuan` | `prunaai/hunyuan3d-2` | Hunyuan3D-2 | per-second GPU | — (GLB→STL) |
@@ -82,7 +82,7 @@ node generate-3d.js --model trellis --image ./figurine.png --stl
 ## Parameter Support Matrix
 
 | Model | prompt | image | seed | format | faces | quality | material | steps | guidance | multi-view |
-|-------|:------:|:-----:|:----:|:------:|:-----:|:-------:|:--------:|:-----:|:--------:|:----------:|
+| ------- | :------: | :-----: | :----: | :------: | :-----: | :-------: | :--------: | :-----: | :--------: | :----------: |
 | `trellis` | ✅ | ✅ | ✅ | ✅ (glb) | — | — | — | ✅ | — | — |
 | `rodin` | ✅ | ✅ | — | ✅ (glb,obj,stl,fbx,usdz) | ✅ | ✅ | ✅ | — | — | ✅ |
 | `hunyuan` | — | ✅ | ✅ | ✅ (glb,obj) | ✅ | — | — | ✅ | — | — |

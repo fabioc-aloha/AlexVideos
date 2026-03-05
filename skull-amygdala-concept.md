@@ -4,7 +4,7 @@
 
 ![Skull Open — The Amygdala](media/2026-03-05T03-23-05_imagen4_human-skull-split-open-into-two-halves-r.jpg)
 
-**3D Model Preview**
+## 3D Model Preview
 
 [▶ skull-3d-preview.mp4](media/2026-03-05T03-24-35_trellis_20260305T032252imagen4arealistic_color_video.mp4)
 
@@ -27,6 +27,7 @@ It is a philosophical object. *Fear is what we keep hidden. Open the skull and t
 ## Key Visual Features
 
 ### Skull Exterior
+
 - Anatomically proportioned human skull (adult, ~150mm tall, ~120mm wide)
 - Sagittal split runs crown-to-jaw through the center, bisecting the forehead, nasal bridge, and jaw
 - Rich surface relief: supraorbital ridges, temporal lines, coronal and sagittal suture lines etched into bone
@@ -36,12 +37,14 @@ It is a philosophical object. *Fear is what we keep hidden. Open the skull and t
 - Upper jaw (maxilla) + lower jaw (mandible) sculpted but fused to each half — no separate moving jaw
 
 ### Split Mechanism
+
 - **Interlocking tongue-and-groove joint** running the full sagittal seam — the halves click together and hold closed magnetically
 - Two micro-magnet recesses embedded in the forehead and jaw regions of each half (press-fit magnet pockets)
 - Seam is deliberately visible but precise — when closed the gap reads as a natural cranial suture
 - Halves are **mirror images** — each half contains exactly one eye socket, one ear canal opening, half the nose, half the teeth
 
 ### The Amygdala — Interior Sphere
+
 - A **smooth sphere, 30mm diameter**, resting in a cradle formed by the interior surfaces of both halves
 - The cradle recesses are hemispherical depressions — when closed, the sphere is perfectly caged, rattles slightly (tactile satisfaction)
 - Sphere printed separately in a **contrasting material/color** — glossy white or translucent resin against the skull's grey-bone exterior
@@ -49,6 +52,7 @@ It is a philosophical object. *Fear is what we keep hidden. Open the skull and t
 - When the skull is closed, the sphere is invisible and silent; when opened, it is the only thing your eye goes to
 
 ### Base (Optional)
+
 - Minimal circular plinth, 20mm tall, with a recessed channel that holds one half upright for display in "open" mode
 - Base surface etched: "ἀμυγδαλή" (ancient Greek: amygdala) in serif capitals
 
@@ -57,7 +61,7 @@ It is a philosophical object. *Fear is what we keep hidden. Open the skull and t
 ## Material & Finish Vision
 
 | Option | Skull Halves | Amygdala Sphere | Look |
-|--------|-------------|-----------------|------|
+| -------- | ------------- | ----------------- | ------ |
 | **Resin SLA** | Matte grey primer + dry-brush bone | Gloss white | Maximum anatomy detail |
 | **PLA+ (FDM)** | Grey or bone-white filament | Contrasting black | Accessible home print |
 | **Multi-material FDM** | Bone exterior, dark interior cavity | Filament-swap sphere | Single-print challenge |
@@ -70,7 +74,7 @@ It is a philosophical object. *Fear is what we keep hidden. Open the skull and t
 ## Dimensions
 
 | Parameter | Value |
-|-----------|-------|
+| ----------- | ------- |
 | Skull height (crown to chin) | 150mm |
 | Skull width (temporal to temporal) | 120mm |
 | Skull depth (front to rear) | 130mm |
@@ -143,7 +147,7 @@ node generate-3d-print.js --file ./skull-amygdala-sphere.stl --service all
 ## Assembly Notes
 
 | Component | Count | Notes |
-|-----------|-------|-------|
+| ----------- | ------- | ------- |
 | Skull half (left) | 1 | Print with interior face down, no supports needed |
 | Skull half (right) | 1 | Mirror of left — same file, mirror in slicer |
 | Amygdala sphere | 1 | Print separately in contrasting material |
@@ -157,7 +161,7 @@ Magnet polarity critical: test-fit before gluing so halves attract (not repel).
 ## Design Risks & Mitigations
 
 | Risk | Mitigation |
-|------|------------|
+| ------ | ------------ |
 | AI generates solid skull, no interior | Post-process in Blender: Boolean shell |
 | Split plane not symmetrical | Use Blender mirror modifier, then bisect at X=0 |
 | Tongue-and-groove too tight / too loose | Print test joint segment first (20mm strip) before full print |
@@ -175,6 +179,7 @@ The amygdala processes **fear, emotion, and memory**. It is the oldest part of t
 This object literalizes that metaphor: you hold a skull in your hands, intact and formidable. Then you pull it apart, and you discover that inside all that bone and intimidation, there is only a small, smooth, unremarkable sphere. *The fear lives in a very small space. The skull is mostly empty.*
 
 It functions as:
+
 - A **desk object** — tactile, satisfying to open and close
 - A **conversation piece** — "what's that?" from everyone who sees it
 - A **gift** — for neuroscientists, psychologists, meditators, anyone who has confronted fear

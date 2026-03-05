@@ -19,27 +19,32 @@ The structure bridges medieval architecture and mathematical art. On a desk, it 
 ## Key Visual Features
 
 ### Outer Wall — Recursive Arch Grid
+
 - 6–8 vertical arch columns running full height of the cup
 - Each arch bay contains 3 levels of nested arches (large → medium → small)
 - Between arches: thin ribbed Gothic tracery with geometric infill (trefoil or quatrefoil cutouts)
 - The nested recursion creates shadows at different depths — visually alive under any lighting
 
 ### Base — Cathedral Foundation Ring
+
 - Wide octagonal plinth base with chamfered edges for stability
 - Shallow bas-relief pattern on the base ring: a repeating rose window cross-section
 - Slightly flared skirt to prevent tipping when fully loaded with pens
 
 ### Rim — Crown Parapet
+
 - Top edge finished as a **battlemented parapet** — alternating merlons and crenels
 - Each merlon capped with a miniature pointed finial
 - The crown silhouette is instantly recognizable from across a room
 
 ### Interior
+
 - Smooth cylindrical interior (no protruding features — pens slide in/out cleanly)
 - Interior diameter: ~80mm (holds 12–15 pens comfortably)
 - Total height: ~120mm
 
 ### Structural Logic (Print-Friendly)
+
 - All arch curves are supported by adjacent structure — no unsupported overhangs >45°
 - Wall thickness minimum 2mm at thinnest tracery points
 - Base thickness 4mm for flat-surface adhesion during FDM printing
@@ -50,7 +55,7 @@ The structure bridges medieval architecture and mathematical art. On a desk, it 
 ## Material & Finish Vision
 
 | Option | Look | Best For |
-|--------|------|----------|
+| -------- | ------ | ---------- |
 | **Resin SLA** | Ultra-sharp detail, glass-smooth, translucent possible | Maximum visual impact |
 | **PLA+ (FDM)** | Solid, matte, excellent layer lines add texture | Home printer, practical |
 | **Black PETG** | Dark, architectural, slightly flexible | Desk durability |
@@ -63,7 +68,7 @@ The structure bridges medieval architecture and mathematical art. On a desk, it 
 ## Dimensions
 
 | Parameter | Value |
-|-----------|-------|
+| ----------- | ------- |
 | Interior diameter | 80mm |
 | Exterior diameter | ~90mm (5mm walls) |
 | Height | 120mm |
@@ -77,6 +82,7 @@ The structure bridges medieval architecture and mathematical art. On a desk, it 
 ## Generation Strategy
 
 ### Step 1 — Reference Image (generate-image.js)
+
 Generate multiple reference angles before feeding to the 3D model generator.
 
 ```bash
@@ -91,6 +97,7 @@ node generate-image.js "top view of Gothic pen cup, castellated rim with pointed
 ```
 
 ### Step 2 — 3D Model Generation (generate-3d.js)
+
 ```bash
 # Image-to-3D from best reference (Rodin — native STL, best architecture detail)
 node generate-3d.js --model rodin --image ./reference-pen-cup.png --quality high --material PBR --stl --meshmode Triangle
@@ -100,12 +107,14 @@ node generate-3d.js --model trellis --image ./reference-pen-cup.png --stl
 ```
 
 ### Step 3 — Mesh Inspection
+
 - Open in **Meshmixer** → Analysis → Inspector → Fix All
 - Check interior is hollow (not solid) — may need manual shell in Blender
 - Scale to exact dimensions (80mm interior diameter)
 - Verify minimum wall thickness ≥ 2mm
 
 ### Step 4 — Print Quote (generate-3d-print.js)
+
 ```bash
 # No-auth Sculpteo quote (BASF industrial printing)
 node generate-3d-print.js --file ./pen-cup.stl --service sculpteo --material plastic
@@ -119,7 +128,7 @@ node generate-3d-print.js --file ./pen-cup.stl --service all
 ## Design Risks & Mitigations
 
 | Risk | Mitigation |
-|------|------------|
+| ------ | ------------ |
 | AI may miss the recursive arch concept | Use multiple reference images; iterate generate-3d with best result |
 | Tracery too thin — breaks in FDM | Scale up 10–15% if printing FDM; use resin for full detail |
 | Interior not hollow | Post-process in Blender: Boolean subtract inner cylinder |
