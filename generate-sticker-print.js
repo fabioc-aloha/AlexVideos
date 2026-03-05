@@ -892,8 +892,8 @@ function showHelp() {
   console.log("");
   console.log("  # Pipeline: generate emoji, clean up, then order stickers");
   console.log("  node generate-emoji.js \"happy robot\" --model sdxlemoji");
-  console.log("  node generate-edit-image.js --model rembg --image ./media/*sdxlemoji*.png");
-  console.log("  node generate-sticker-print.js --file ./media/*rembg*.png --service all --type die-cut");
+  console.log("  node generate-edit-image.js --model rembg --image ./media/images/*sdxlemoji*.png");
+  console.log("  node generate-sticker-print.js --file ./media/images/*rembg*.png --service all --type die-cut");
 }
 
 // ── Run ────────────────────────────────────────────────────────────

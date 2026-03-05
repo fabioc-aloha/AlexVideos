@@ -754,8 +754,8 @@ async function main() {
   }
 
   // Ensure output directory
-  const outputDir = path.join(__dirname, "media");
-  if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
+  const outputDir = path.join(__dirname, "media/3d");
+  fs.mkdirSync(outputDir, { recursive: true });
 
   // Resolve primary image
   let imageUri = null;
@@ -959,10 +959,10 @@ async function main() {
     console.log(`\n✅ 3D generation complete!`);
     for (const f of savedFiles) {
       const typeLabel = f.type ? ` (${f.type})` : "";
-      console.log(`   File: media/${f.filename}${typeLabel} (${f.fileSize} MB)`);
+      console.log(`   File: media/3d/${f.filename}${typeLabel} (${f.fileSize} MB)`);
     }
     console.log(`   Time: ${elapsed}s`);
-    console.log(`   Report: media/${reportFilename}`);
+    console.log(`   Report: media/3d/${reportFilename}`);
   } catch (err) {
     console.error(`\n❌ Generation failed: ${err.message}`);
     if (err.message?.includes("safety") || err.message?.includes("blocked")) {

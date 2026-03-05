@@ -6,24 +6,17 @@
     "generate-music.js"
   ],
   "stalledFiles": [
-    "github/episodic/peripheral/file-observations.json"
+    "github/episodic/peripheral/file-observations.json",
+    "generate-3d-print.js",
+    "generate-3d.js",
+    "generate-edit-image.js",
+    "generate-edit-video.js",
+    "generate-emoji.js",
+    "generate-image.js",
+    "generate-music.js",
+    "generate-sticker-print.js",
+    "generate-video.js"
   ],
-  "todoHotspots": [
-    {
-      "file": "media/2026-03-05T03-24-35_trellis_20260305T032252imagen4arealistic_model_file.glb",
-      "todoCount": 5,
-      "scannedAt": 1772681815732
-    },
-    {
-      "file": "media/2026-03-05T03-23-05_imagen4_human-skull-split-open-into-two-halves-r.jpg",
-      "todoCount": 4,
-      "scannedAt": 1772681815732
-    },
-    {
-      "file": "media/2026-03-05T03-22-52_imagen4_a-realistic-human-skull-split-along-the.jpg",
-      "todoCount": 3,
-      "scannedAt": 1772681815732
-    }
-  ],
-  "lastUpdated": 1772681815732
+  "todoHotspots": [],
+  "lastUpdated": 1772682372328
 }

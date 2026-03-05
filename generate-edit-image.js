@@ -455,8 +455,8 @@ async function main() {
   const opts = { aspect, format, seed, scale, outpaint, faceEnhance };
 
   // Ensure output directory
-  const outputDir = path.join(__dirname, "media");
-  if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
+  const outputDir = path.join(__dirname, "media/images");
+  fs.mkdirSync(outputDir, { recursive: true });
 
   // Resolve input image
   const imageUri = imageToDataUri(image);
@@ -541,10 +541,10 @@ async function main() {
 
     console.log(`\n✅ Edited image${savedFiles.length > 1 ? "s" : ""} saved!`);
     for (const f of savedFiles) {
-      console.log(`   File: media/${f.filename} (${f.fileSize} MB)`);
+      console.log(`   File: media/images/${f.filename} (${f.fileSize} MB)`);
     }
     console.log(`   Time: ${elapsed}s`);
-    console.log(`   Report: media/${reportFilename}`);
+    console.log(`   Report: media/images/${reportFilename}`);
   } catch (err) {
     console.error(`\n❌ Editing failed: ${err.message}`);
     if (err.message?.includes("safety") || err.message?.includes("blocked")) {

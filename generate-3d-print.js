@@ -783,7 +783,7 @@ function showHelp() {
   console.log("");
   console.log("  # Pipeline: generate 3D model, then get print quotes");
   console.log("  node generate-3d.js --model rodin --image ./obj.png --stl && \\");
-  console.log("    node generate-3d-print.js --file ./media/*rodin*.stl --service all");
+  console.log("    node generate-3d-print.js --file ./media/3d/*rodin*.stl --service all");
 }
 
 // ── Run ────────────────────────────────────────────────────────────
