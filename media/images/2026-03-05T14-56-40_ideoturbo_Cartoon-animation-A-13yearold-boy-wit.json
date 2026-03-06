@@ -1,0 +1,22 @@
+{
+  "prompt": "Cartoon animation: A 13-year-old boy with curly auburn hair in a green shirt looks through a kitchen window at a garage door outside. The garage door has a fist-sized circular dent at five feet high highlighted with a glowing red circle. Multiple purple and amber analytical glyphs orbit the boy's head fully activated. A magnifying glyph zooms toward the dent. Golden morning light, American animation style.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:56:40.588Z",
+  "elapsed": "9.4s",
+  "files": [
+    {
+      "name": "2026-03-05T14-56-40_ideoturbo_Cartoon-animation-A-13yearold-boy-wit.png",
+      "size": "0.66MB",
+      "url": "https://replicate.delivery/xezq/dqp5t06kvGrIH9x0N3kGbT1fTvcSAh4o93NbIswr5HaUX6GLA/tmpwm0qd4kt.png"
+    }
+  ]
+}

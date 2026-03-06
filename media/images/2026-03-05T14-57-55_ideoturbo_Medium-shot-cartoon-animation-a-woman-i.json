@@ -1,0 +1,22 @@
+{
+  "prompt": "Medium shot cartoon animation: a woman in nurse's scrubs (early 40s) kisses the top of a 13-year-old boy's curly auburn head at a kitchen table, then points at him with a warning finger as she moves toward the door. The boy's expression is tolerant with a tiny hint of fond. Warm morning kitchen, golden light. American animation style.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:57:55.473Z",
+  "elapsed": "5.9s",
+  "files": [
+    {
+      "name": "2026-03-05T14-57-55_ideoturbo_Medium-shot-cartoon-animation-a-woman-i.png",
+      "size": "0.75MB",
+      "url": "https://replicate.delivery/xezq/VnJMXuVQeOQ5Eq1f0ESMFenZG03xdtJpFBvg4TPZzjAnfS3YB/tmpksb2a0g7.png"
+    }
+  ]
+}

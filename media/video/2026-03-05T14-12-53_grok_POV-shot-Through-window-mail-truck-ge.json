@@ -1,0 +1,16 @@
+{
+  "prompt": "POV shot: Through window - mail truck getting closer. Mr. Patterson visible in driver's seat, running early. American animation cartoon style.",
+  "model": "xai/grok-imagine-video",
+  "modelName": "Grok Video",
+  "duration": 2,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:12:53.968Z",
+  "elapsed": "35.6s",
+  "fileSize": "2.16MB",
+  "outputFile": "2026-03-05T14-12-53_grok_POV-shot-Through-window-mail-truck-ge.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/dHDzPfgcsWQaDqNjTgDZoze2TYnnjjeso9vZzBJfx7qXWQ3YB/tmplzvjj86j.mp4"
+}

@@ -1,0 +1,22 @@
+{
+  "prompt": "Medium shot cartoon animation: 13-year-old boy with curly auburn hair (green shirt) sits at a kitchen table with a full analytical overlay active — four glowing glyph icons orbit around him: a spice jar, a smartphone, an envelope, a garage door. Each pulses amber in sequence. Expression contemplative. Warm golden morning light. American animation style.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:58:22.936Z",
+  "elapsed": "6.9s",
+  "files": [
+    {
+      "name": "2026-03-05T14-58-22_ideoturbo_Medium-shot-cartoon-animation-13yearo.png",
+      "size": "0.76MB",
+      "url": "https://replicate.delivery/xezq/CDCePCtFMlSyI6S9lWW3GlRI5LJ04sNdTgKuiM7oKoGHY6GLA/tmp0zv83nvw.png"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "prompt": "Wide establishing shot: Suburban kitchen in morning light. Sunbeams through window, breakfast items on counter. Clean, warm lighting. American animation cartoon style.",
+  "model": "xai/grok-imagine-video",
+  "modelName": "Grok Video",
+  "duration": 3,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T13:46:59.714Z",
+  "elapsed": "35.7s",
+  "fileSize": "1.70MB",
+  "outputFile": "2026-03-05T13-46-59_grok_Wide-establishing-shot-Suburban-kitchen.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/ncGPdw1P5fR4CqehXdGj4QJcV5Y2PvX1KhYjskePEEFkanbsA/tmpgjstmezd.mp4"
+}

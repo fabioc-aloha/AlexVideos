@@ -1,0 +1,16 @@
+{
+  "prompt": "Close-up: Phone lying face-down on counter. The screen is completely dark. Phone case shows slight wear marks. Camera holds steady on the unusual sight. American animation cartoon style.",
+  "model": "google/veo-3.1-fast",
+  "modelName": "Veo 3.1 Fast",
+  "duration": 4,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:04:13.407Z",
+  "elapsed": "95.4s",
+  "fileSize": "3.24MB",
+  "outputFile": "2026-03-05T14-04-13_veo3fast_Closeup-Phone-lying-facedown-on-count.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/GjMEt0bY6sYIEBM7gfC06UerfqkU1d1ISZfkD1P27day1P3YB/tmpw5rbvrl6.mp4"
+}

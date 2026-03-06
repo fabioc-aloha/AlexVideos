@@ -1,0 +1,16 @@
+{
+  "prompt": "Cut to: Window view of front yard. Mail truck visible in distance, earlier than usual. Suburban morning scene with soft lighting. American animation cartoon style.",
+  "model": "xai/grok-imagine-video",
+  "modelName": "Grok Video",
+  "duration": 3,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:04:49.229Z",
+  "elapsed": "35.7s",
+  "fileSize": "2.01MB",
+  "outputFile": "2026-03-05T14-04-48_grok_Cut-to-Window-view-of-front-yard-Mail.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/VJnIoJiljs47Cx7zwoaq7OSPSM1lXyVMNktljqrNmsIgf5GLA/tmpy1p5_ast.mp4"
+}

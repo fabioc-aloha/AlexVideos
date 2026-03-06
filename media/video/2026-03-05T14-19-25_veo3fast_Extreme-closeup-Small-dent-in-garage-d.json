@@ -1,0 +1,16 @@
+{
+  "prompt": "Extreme close-up: Small dent in garage door, about five feet up. Fist-sized. Fresh damage. Camera examines the impact pattern. American animation cartoon style.",
+  "model": "google/veo-3.1-fast",
+  "modelName": "Veo 3.1 Fast",
+  "duration": 4,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:19:26.260Z",
+  "elapsed": "101.8s",
+  "fileSize": "5.08MB",
+  "outputFile": "2026-03-05T14-19-25_veo3fast_Extreme-closeup-Small-dent-in-garage-d.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/a4GM7mfVwW0mCCriyN0fZoaQ5lUikm0SaBZz4ZZcdiztL0NWA/tmpfmepar27.mp4"
+}

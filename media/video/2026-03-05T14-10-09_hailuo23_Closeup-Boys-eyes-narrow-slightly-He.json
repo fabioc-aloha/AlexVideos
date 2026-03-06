@@ -1,0 +1,16 @@
+{
+  "prompt": "Close-up: Boy's eyes narrow slightly. He knows Mr. Patterson never delivers before 9 AM on Tuesdays. Glyphs pulse with urgency now. American animation cartoon style.",
+  "model": "minimax/hailuo-2.3",
+  "modelName": "Hailuo-2.3",
+  "duration": 6,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:10:10.037Z",
+  "elapsed": "83.0s",
+  "fileSize": "2.31MB",
+  "outputFile": "2026-03-05T14-10-09_hailuo23_Closeup-Boys-eyes-narrow-slightly-He.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/rWfksF90MV1MfkOC7f2ttx7uOYrwxKqe6XO7JnDwlNL0LQ3YB/tmpo752d2ow.mp4"
+}

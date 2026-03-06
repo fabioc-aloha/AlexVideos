@@ -1,0 +1,16 @@
+{
+  "prompt": "Medium shot cartoon animation: 13-year-old boy with curly auburn hair in a green shirt at a kitchen table while analytical glyphs form a floating timeline beside him showing timestamps 7:11, 7:14, 7:23 as colored glyph-dots on a glowing line. Expression completely matter-of-fact. American animation style, warm kitchen morning light.",
+  "model": "xai/grok-imagine-video",
+  "modelName": "Grok Video",
+  "duration": 6,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\media\\frames\\frame-10.png",
+  "timestamp": "2026-03-05T15:03:37.970Z",
+  "elapsed": "33.4s",
+  "fileSize": "1.42MB",
+  "outputFile": "2026-03-05T15-03-37_grok_Medium-shot-cartoon-animation-13yearo.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/yxTX05oWTuasItXbxwRG3nqZDZMTXavM5S2ddcqbei4ka6GLA/tmpirkzmpcg.mp4"
+}

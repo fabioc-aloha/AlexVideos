@@ -1,0 +1,16 @@
+{
+  "prompt": "Medium shot: Boy stops mid-chew, cereal spoon halfway to his mouth. His eyes focus on the phone. Glyphs brighten around his head - something's definitely off. American animation cartoon style.",
+  "model": "minimax/hailuo-2.3",
+  "modelName": "Hailuo-2.3",
+  "duration": 6,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:02:37.824Z",
+  "elapsed": "80.3s",
+  "fileSize": "1.03MB",
+  "outputFile": "2026-03-05T14-02-37_hailuo23_Medium-shot-Boy-stops-midchew-cereal.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/t5uoxrO0BWbdKByHNqjBuXztYMRgKWt9SCoYa4p2dVNf95GLA/tmpvrb45tei.mp4"
+}

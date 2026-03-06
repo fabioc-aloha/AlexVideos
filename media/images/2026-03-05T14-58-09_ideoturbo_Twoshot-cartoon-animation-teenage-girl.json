@@ -1,0 +1,22 @@
+{
+  "prompt": "Two-shot cartoon animation: teenage girl (17, wavy auburn hair, purple hoodie) scrolls on her phone at a kitchen counter in the background. 13-year-old boy (curly auburn hair, green shirt) sits at the foreground kitchen table, spoon in hand but not eating, staring at the table surface. Analytical glyphs very faint, barely visible. Quiet morning kitchen. American animation style.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:58:10.048Z",
+  "elapsed": "7.2s",
+  "files": [
+    {
+      "name": "2026-03-05T14-58-09_ideoturbo_Twoshot-cartoon-animation-teenage-girl.png",
+      "size": "0.77MB",
+      "url": "https://replicate.delivery/xezq/Q8bXZYDfu8SNOCtMb6AQGzsaAZsNpAkqrsgVljekX8KBw0NWA/tmpkkv6r19c.png"
+    }
+  ]
+}

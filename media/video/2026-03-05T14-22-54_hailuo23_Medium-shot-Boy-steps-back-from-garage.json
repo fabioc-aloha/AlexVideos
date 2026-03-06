@@ -1,0 +1,16 @@
+{
+  "prompt": "Medium shot: Boy steps back from garage, processing what he's discovered. He runs a hand through his aubrun curls. Glyphs slow to a steady, determined pulse. American animation cartoon style.",
+  "model": "minimax/hailuo-2.3",
+  "modelName": "Hailuo-2.3",
+  "duration": 10,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:22:54.448Z",
+  "elapsed": "118.9s",
+  "fileSize": "1.87MB",
+  "outputFile": "2026-03-05T14-22-54_hailuo23_Medium-shot-Boy-steps-back-from-garage.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/lemR05dsDN2FEKmQWZeJQFzdaSfNko1eMmOOdJfnCSlo3huxC/tmpbgqplkn2.mp4"
+}

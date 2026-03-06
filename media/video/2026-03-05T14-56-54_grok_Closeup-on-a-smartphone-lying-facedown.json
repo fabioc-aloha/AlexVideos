@@ -1,0 +1,16 @@
+{
+  "prompt": "Close-up on a smartphone lying face-down on a kitchen counter, screen dark. A glowing amber clock glyph shows 7:11 AM above it. A teenage girl's hands are visible at the edges, fidgeting. Warm cartoon animation style, morning kitchen lighting.",
+  "model": "xai/grok-imagine-video",
+  "modelName": "Grok Video",
+  "duration": 5,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "text-to-video",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:56:54.524Z",
+  "elapsed": "32.6s",
+  "fileSize": "1.46MB",
+  "outputFile": "2026-03-05T14-56-54_grok_Closeup-on-a-smartphone-lying-facedown.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/JOJs5CwVjM53K5mSwk4SdiDF0benFC74NNwG34VKN34aX6GLA/tmpd347650t.mp4"
+}

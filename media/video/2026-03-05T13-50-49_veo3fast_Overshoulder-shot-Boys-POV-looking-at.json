@@ -1,0 +1,16 @@
+{
+  "prompt": "Over-shoulder shot: Boy's POV looking at spice rack on counter. Spices arranged alphabetically. Camera slowly tracks across the neat organization. His hand enters frame pointing. American animation cartoon style.",
+  "model": "google/veo-3.1-fast",
+  "modelName": "Veo 3.1 Fast",
+  "duration": 8,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T13:50:49.869Z",
+  "elapsed": "129.7s",
+  "fileSize": "8.92MB",
+  "outputFile": "2026-03-05T13-50-49_veo3fast_Overshoulder-shot-Boys-POV-looking-at.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/XCcUKWfQn1XLaSYacUIU2e0PWlJfJhtvibPpCWMVsOLuhnbsA/tmp35zvhzhz.mp4"
+}

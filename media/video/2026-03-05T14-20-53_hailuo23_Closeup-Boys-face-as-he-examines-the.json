@@ -1,0 +1,16 @@
+{
+  "prompt": "Close-up: Boy's face as he examines the dent. His expression shifts from curiosity to concern. Glyphs pulse rapidly - the pattern is becoming clear. American animation cartoon style.",
+  "model": "minimax/hailuo-2.3",
+  "modelName": "Hailuo-2.3",
+  "duration": 6,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:20:55.345Z",
+  "elapsed": "88.6s",
+  "fileSize": "2.30MB",
+  "outputFile": "2026-03-05T14-20-53_hailuo23_Closeup-Boys-face-as-he-examines-the.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/tLlKE8la3q7AEdwyViZalhRUbtncp7ppw1ahfx8m8vWiG6GLA/tmpz_92yb5l.mp4"
+}

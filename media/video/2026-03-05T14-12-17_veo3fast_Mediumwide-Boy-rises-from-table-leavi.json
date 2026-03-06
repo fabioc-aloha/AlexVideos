@@ -1,0 +1,16 @@
+{
+  "prompt": "Medium-wide: Boy rises from table, leaving his cereal. He approaches the window to get a better look at the mail situation. American animation cartoon style.",
+  "model": "google/veo-3.1-fast",
+  "modelName": "Veo 3.1 Fast",
+  "duration": 4,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:12:18.281Z",
+  "elapsed": "128.0s",
+  "fileSize": "3.31MB",
+  "outputFile": "2026-03-05T14-12-17_veo3fast_Mediumwide-Boy-rises-from-table-leavi.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/hHAC5x0Bz7JzM91nvJHU1otRnXEP3Fmy2FKes8frqDjBF0NWA/tmpklr5cc2w.mp4"
+}

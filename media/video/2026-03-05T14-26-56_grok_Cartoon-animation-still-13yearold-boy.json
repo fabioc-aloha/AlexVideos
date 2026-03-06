@@ -1,0 +1,16 @@
+{
+  "prompt": "Cartoon animation still: 13-year-old boy with curly auburn hair in green shirt sits at a kitchen table, turning his gaze toward a window with a slight determined smile. Analytical glyphs orbit his head brightly. Kitchen morning light. The expression of someone who has already made up their mind. American animation cartoon style.",
+  "model": "xai/grok-imagine-video",
+  "modelName": "Grok Video",
+  "duration": 5,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:26:57.310Z",
+  "elapsed": "37.6s",
+  "fileSize": "3.84MB",
+  "outputFile": "2026-03-05T14-26-56_grok_Cartoon-animation-still-13yearold-boy.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/ODtPvwGB4b4WD995TcpnUWvK8cYlC0Ykp5jWQeDXKfUvS0NWA/tmpyppmfqyq.mp4"
+}

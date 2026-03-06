@@ -1,0 +1,16 @@
+{
+  "prompt": "Wide shot: Boy continues eating cereal, but his eyes drift toward the counter where a phone lies face-down. Camera slowly pushes in toward the phone. American animation cartoon style.",
+  "model": "google/veo-3.1-fast",
+  "modelName": "Veo 3.1 Fast",
+  "duration": 6,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:01:17.419Z",
+  "elapsed": "503.2s",
+  "fileSize": "8.96MB",
+  "outputFile": "2026-03-05T14-01-15_veo3fast_Wide-shot-Boy-continues-eating-cereal.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/TOEFYedu103vQivHTCBT30jMa3ndjDwYvp5cusdESzlU95GLA/tmptlqkhxmr.mp4"
+}

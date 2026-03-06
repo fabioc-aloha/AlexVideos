@@ -1,0 +1,22 @@
+{
+  "prompt": "Three-shot cartoon animation: woman in nurse's scrubs (early 40s, hair in practical bun, coffee mug in hand) turns to face a 13-year-old boy at a table and a teenage girl at the counter. Expression simultaneously amused, exasperated, and loving. Morning kitchen, warm light. American animation expressive style.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:57:28.597Z",
+  "elapsed": "6.5s",
+  "files": [
+    {
+      "name": "2026-03-05T14-57-28_ideoturbo_Threeshot-cartoon-animation-woman-in-n.png",
+      "size": "0.97MB",
+      "url": "https://replicate.delivery/xezq/vIfQuJNrmOyelUWnuBz88Vt0sYqonmWiOaPz1BorfDWweS3YB/tmpp1milzl6.png"
+    }
+  ]
+}

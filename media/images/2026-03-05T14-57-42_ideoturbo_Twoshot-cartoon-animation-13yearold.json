@@ -1,0 +1,22 @@
+{
+  "prompt": "Two-shot cartoon animation: 13-year-old boy with curly auburn hair (green shirt, analytical glyphs active) asks a question while a woman in nurse's scrubs reacts — her confident expression falters into genuine puzzlement. Real surprise not performance. Cozy morning kitchen, warm light. American animation style.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:57:42.931Z",
+  "elapsed": "7.8s",
+  "files": [
+    {
+      "name": "2026-03-05T14-57-42_ideoturbo_Twoshot-cartoon-animation-13yearold.png",
+      "size": "0.92MB",
+      "url": "https://replicate.delivery/xezq/bsolDTxw4yoxO9f8tQ7hlH6fJMKjg1bSFyYSlJROl4Qmv0NWA/tmpp5jij83i.png"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "prompt": "Medium shot cartoon animation: teenage girl (17, wavy auburn hair, purple hoodie) theatrically mimicking a detective's squint — face scrunched, hands waving in circles around her head in an exaggerated impression. Expression is fond mockery. Kitchen background, warm morning light. American cartoon style.",
+  "model": "minimax/hailuo-2.3",
+  "modelName": "Hailuo-2.3",
+  "duration": 6,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\media\\frames\\frame-09.png",
+  "timestamp": "2026-03-05T15:03:04.394Z",
+  "elapsed": "87.3s",
+  "fileSize": "0.84MB",
+  "outputFile": "2026-03-05T15-03-04_hailuo23_Medium-shot-cartoon-animation-teenage-g.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/rmPvje5McDwRdCWfgzt4sL2jhLx8hn6iP7NNbmZ7ZJun00NWA/tmpz_eqygrd.mp4"
+}

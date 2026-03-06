@@ -1,0 +1,16 @@
+{
+  "prompt": "Slow push: Camera moves from boy's face toward the window, following his gaze. Through glass, mail truck is visible in the distance on their street. Morning light filters through. American animation cartoon style.",
+  "model": "google/veo-3.1-fast",
+  "modelName": "Veo 3.1 Fast",
+  "duration": 8,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:08:10.630Z",
+  "elapsed": "121.4s",
+  "fileSize": "11.56MB",
+  "outputFile": "2026-03-05T14-08-09_veo3fast_Slow-push-Camera-moves-from-boys-face.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/z3sJmZMGoX5yH9jUA4eifO66TPZwnMYfe68SUQ4xqkZeIguxC/tmpp_0un4e_.mp4"
+}

@@ -1,0 +1,16 @@
+{
+  "prompt": "First-person POV shot slowly panning across a warm cartoon kitchen interior. Morning light, potted plants, round white table, spice rack. Faint glowing purple and amber analytical glyphs and runes drift at the edges of frame, orbiting softly like living ink. Cartoon animation style, Ghibli warmth.",
+  "model": "xai/grok-imagine-video",
+  "modelName": "Grok Video",
+  "duration": 6,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "text-to-video",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:59:47.097Z",
+  "elapsed": "32.2s",
+  "fileSize": "2.24MB",
+  "outputFile": "2026-03-05T14-59-46_grok_Firstperson-POV-shot-slowly-panning-acr.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/U3uzIbhPVL4HBZbTFY4UElcxFscVz50crVHovL01nklYMdjF/tmp7v7_cm8a.mp4"
+}

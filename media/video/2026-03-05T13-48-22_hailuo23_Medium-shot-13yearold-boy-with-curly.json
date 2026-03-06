@@ -1,0 +1,16 @@
+{
+  "prompt": "Medium shot: 13-year-old boy with curly auburn hair in green shirt sits at kitchen table with cereal bowl. He looks thoughtful, slightly frowning in concentration. Analytical glyphs begin to orbit his head faintly. Kitchen morning atmosphere. American animation cartoon style.",
+  "model": "minimax/hailuo-2.3",
+  "modelName": "Hailuo-2.3",
+  "duration": 6,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T13:48:23.178Z",
+  "elapsed": "81.9s",
+  "fileSize": "1.65MB",
+  "outputFile": "2026-03-05T13-48-22_hailuo23_Medium-shot-13yearold-boy-with-curly.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/8DOShnWZZ15CD9FNe6HI4ekW2nTfCCYGU0pMo4S0fPZb6O3YB/tmp89f_au8y.mp4"
+}

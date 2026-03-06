@@ -33,8 +33,67 @@
 
 ### Character Consistency
 
-Every shot passes `--image ./projects/alex-breakfast/prologue.png` to anchor character appearance:
+**2-pass strategy** — prologue.png is NOT passed as `--image` (that sets the literal first frame).
+Instead: Pass 1 generates a unique first-frame image per character shot (imagen4), Pass 2 uses that custom frame as `--image`.
+Environment/POV shots use text-to-video (no `--image`).
+
+Character descriptions embedded in every prompt:
 Alex (curly auburn hair, green shirt, glyphs), Maya (wavy auburn hair, purple hoodie), kitchen (round table, spice rack, sink window).
+
+### Production Budget
+
+#### Video Generation (Pass 2)
+
+| Model | Shots | Seconds | Rate | Subtotal |
+|-------|-------|---------|------|----------|
+| grok | 01, 02, 03, 04, 05, 06, 10, 16, 19, 20, 22, 26 | 69s | $0.05/sec | $3.45 |
+| hailuo23 | 07, 08, 09, 11, 12, 13, 14, 15, 17, 18, 21 | 66s | ~$0.04/sec* | ~$2.64 |
+| veo3fast | 23, 24 | 14s | $0.15/sec | $2.10 |
+| **Video subtotal** | **25 shots** | **149s** | | **~$8.19** |
+
+*\*hailuo23 cost is "variable" per Replicate — $0.04/sec is an observed estimate.*
+
+#### First-Frame Images (Pass 1)
+
+| Model | Count | Rate | Subtotal |
+|-------|-------|------|----------|
+| imagen4 | 17 character frames | $0.04/image | $0.68 |
+
+#### Title Card (Shot 25)
+
+| Model | Count | Rate | Subtotal |
+|-------|-------|------|----------|
+| ideoturbo | 1 image | $0.03/image | $0.03 |
+
+#### Audio
+
+| Asset | Model | Rate | Subtotal |
+|-------|-------|------|----------|
+| Narration (~800 chars) | elevenv3 | $0.10/1K chars | ~$0.08 |
+| Background music (1 track) | music15 | $0.03/file | $0.03 |
+
+#### Post-Production
+
+| Phase | Model | Rate | Subtotal |
+|-------|-------|------|----------|
+| Clip assembly | ffmpeg (local) | free | $0.00 |
+| Narration merge | avmerge (local) | free | $0.00 |
+| Music blend | audiomix (local) | free | $0.00 |
+| Captions (optional) | caption | ~$0.07 | $0.07 |
+
+#### Total Budget
+
+| Category | Cost |
+|----------|------|
+| Video generation | ~$8.19 |
+| First-frame images | $0.68 |
+| Title card | $0.03 |
+| Audio (voice + music) | ~$0.11 |
+| Post-production | $0.07 |
+| **TOTAL** | **~$9.08** |
+
+*Budget assumes single-take per shot. Retakes (content filter rejections, quality misses) may add 20-50%.*
+*Worst-case with retakes: ~$14*
 
 ### Style Anchor (append to every prompt)
 

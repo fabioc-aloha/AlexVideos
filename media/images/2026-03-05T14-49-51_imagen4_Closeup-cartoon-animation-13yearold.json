@@ -1,0 +1,22 @@
+{
+  "prompt": "Close-up cartoon animation: 13-year-old boy with curly auburn hair meets eyes with someone off-frame, head tilted slightly, expression neutral with the faintest hint of a smile at the corner of his mouth. Faint analytical glyphs orbit softly. American animation style.",
+  "model": "google/imagen-4",
+  "modelName": "Imagen 4",
+  "aspectRatio": "default",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:49:51.314Z",
+  "elapsed": "15.0s",
+  "files": [
+    {
+      "name": "2026-03-05T14-49-51_imagen4_Closeup-cartoon-animation-13yearold.jpg",
+      "size": "1.44MB",
+      "url": "https://replicate.delivery/xezq/Y7lWmaBfgtT7GKWuMPpuCgRzIVJg4DKj8VvsyBwNe3IOo0NWA/tmpj7dvgyvl.jpg"
+    }
+  ]
+}

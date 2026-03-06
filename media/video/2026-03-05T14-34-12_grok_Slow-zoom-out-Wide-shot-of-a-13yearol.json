@@ -1,0 +1,16 @@
+{
+  "prompt": "Slow zoom out: Wide shot of a 13-year-old animated boy with curly auburn hair standing in a garage doorway. Morning light frames him beautifully. He looks confident and resolute. American animation cartoon style.",
+  "model": "xai/grok-imagine-video",
+  "modelName": "Grok Video",
+  "duration": 5,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:34:13.122Z",
+  "elapsed": "36.5s",
+  "fileSize": "3.98MB",
+  "outputFile": "2026-03-05T14-34-12_grok_Slow-zoom-out-Wide-shot-of-a-13yearol.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/AIq1CvbFIkavPVrg2sCCDfgiewRbA6B75e4kO1Wa3aUGzobsA/tmpwlb9iza3.mp4"
+}

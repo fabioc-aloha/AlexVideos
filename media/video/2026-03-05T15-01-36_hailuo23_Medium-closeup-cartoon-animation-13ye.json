@@ -1,0 +1,16 @@
+{
+  "prompt": "Medium close-up cartoon animation: 13-year-old boy with curly auburn hair and green shirt sits at a kitchen table, eyes narrowed in a focused detective squint. Analytical glyphs pause mid-orbit around his head. He sets a spoon down on a cereal bowl. Kitchen background, warm morning light. American animation style.",
+  "model": "minimax/hailuo-2.3",
+  "modelName": "Hailuo-2.3",
+  "duration": 6,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\media\\frames\\frame-08.png",
+  "timestamp": "2026-03-05T15:01:36.951Z",
+  "elapsed": "98.4s",
+  "fileSize": "0.67MB",
+  "outputFile": "2026-03-05T15-01-36_hailuo23_Medium-closeup-cartoon-animation-13ye.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/eJCvyTkBLm3uCCptXwUF25hGgDsOvfHc7ye42hfibrQBNT3YB/tmpzitxembz.mp4"
+}

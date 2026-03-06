@@ -1,0 +1,22 @@
+{
+  "prompt": "A 13-year-old boy with curly auburn hair leans toward a kitchen window. Through the window a suburban porch shows mail already in the mailbox. A glowing cyan glyph with a clock and envelope icon floats near the frame. Warm American cartoon style, morning light.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:56:30.977Z",
+  "elapsed": "6.9s",
+  "files": [
+    {
+      "name": "2026-03-05T14-56-30_ideoturbo_A-13yearold-boy-with-curly-auburn-hair.png",
+      "size": "0.76MB",
+      "url": "https://replicate.delivery/xezq/2OC3fEwVZMX0SyGjQLbmrTkxqe9V3JYgXRScUr47IwhecpbsA/tmp0pqn60wp.png"
+    }
+  ]
+}

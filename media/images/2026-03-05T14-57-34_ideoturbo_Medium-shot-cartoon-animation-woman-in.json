@@ -1,0 +1,22 @@
+{
+  "prompt": "Medium shot cartoon animation: woman in nurse's scrubs (early 40s, hair in bun, coffee mug) is mid-pour when she freezes for a half-beat — a subtle micro-expression of surprise flickers before she smooths it into a casual smile. In the background a 13-year-old boy's glowing analytical glyphs pulse brightly amber. Warm morning kitchen. American animation style.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:57:34.940Z",
+  "elapsed": "6.1s",
+  "files": [
+    {
+      "name": "2026-03-05T14-57-34_ideoturbo_Medium-shot-cartoon-animation-woman-in.png",
+      "size": "0.74MB",
+      "url": "https://replicate.delivery/xezq/IoKhvZlGeW1qE6kjBlxbiJJlUzopzI8vj34VUSuOUdMvX6GLA/tmp0rcdz67n.png"
+    }
+  ]
+}

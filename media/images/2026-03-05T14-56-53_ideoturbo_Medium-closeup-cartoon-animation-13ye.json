@@ -1,0 +1,22 @@
+{
+  "prompt": "Medium close-up cartoon animation: 13-year-old boy with curly auburn hair and green shirt sits at a kitchen table, eyes narrowed in a focused detective squint. Analytical glyphs pause mid-orbit around his head. He sets a spoon down on a cereal bowl. Kitchen background, warm morning light. American animation style.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:56:53.359Z",
+  "elapsed": "6.1s",
+  "files": [
+    {
+      "name": "2026-03-05T14-56-53_ideoturbo_Medium-closeup-cartoon-animation-13ye.png",
+      "size": "0.62MB",
+      "url": "https://replicate.delivery/xezq/QEStVzK3b7LIPx8FfypMURE1shP7EYZGf6DT5hYPvDL1u0NWA/tmpvqhgxopf.png"
+    }
+  ]
+}

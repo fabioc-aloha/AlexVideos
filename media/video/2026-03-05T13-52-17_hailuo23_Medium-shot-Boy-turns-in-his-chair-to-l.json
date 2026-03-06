@@ -1,0 +1,16 @@
+{
+  "prompt": "Medium shot: Boy turns in his chair to look at spice rack. Glyphs around his head pulse once, then fade slightly. He nods to himself, making a mental note. Analytical but not worried. American animation cartoon style.",
+  "model": "minimax/hailuo-2.3",
+  "modelName": "Hailuo-2.3",
+  "duration": 6,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T13:52:17.405Z",
+  "elapsed": "85.9s",
+  "fileSize": "1.50MB",
+  "outputFile": "2026-03-05T13-52-17_hailuo23_Medium-shot-Boy-turns-in-his-chair-to-l.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/yDflRCghjiSWD6PRCehebgoULlRHNAQbiuyVxrLOfubDJP3YB/tmpl96oo9qc.mp4"
+}

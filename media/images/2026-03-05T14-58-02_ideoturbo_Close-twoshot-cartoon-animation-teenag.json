@@ -1,0 +1,22 @@
+{
+  "prompt": "Close two-shot cartoon animation: teenage girl (17, wavy auburn hair, purple hoodie) makes direct eye contact with a 13-year-old boy (curly auburn hair, green shirt). All sarcasm gone — expression quiet, serious, protective. No glyphs active. Warm kitchen morning light, slightly muted palette. American animation style.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:58:02.665Z",
+  "elapsed": "7.0s",
+  "files": [
+    {
+      "name": "2026-03-05T14-58-02_ideoturbo_Close-twoshot-cartoon-animation-teenag.png",
+      "size": "0.56MB",
+      "url": "https://replicate.delivery/xezq/Lx2VqrWWGAZlBN6t4yw7cHu58jazAbJYbkWdLvme1gJ9X6GLA/tmpr164z07y.png"
+    }
+  ]
+}

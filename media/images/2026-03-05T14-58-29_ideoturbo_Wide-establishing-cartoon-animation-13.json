@@ -1,0 +1,22 @@
+{
+  "prompt": "Wide establishing cartoon animation: 13-year-old boy with curly auburn hair sits alone at a round white kitchen table in a warm morning kitchen, cereal bowl in front of him, sunlight through the window. The room that was full of family is now quiet and still. Analytical glyphs orbit him slowly, idling. Expression clear, resolved, thinking. American animation style, Studio Ghibli warmth.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:58:29.446Z",
+  "elapsed": "6.4s",
+  "files": [
+    {
+      "name": "2026-03-05T14-58-29_ideoturbo_Wide-establishing-cartoon-animation-13.png",
+      "size": "0.74MB",
+      "url": "https://replicate.delivery/xezq/AUc6GLhj7ZIIHh3DwjQGMPwfiqnLzSqetRG2ANMmXa1Vw0NWA/tmp4amd4pdv.png"
+    }
+  ]
+}

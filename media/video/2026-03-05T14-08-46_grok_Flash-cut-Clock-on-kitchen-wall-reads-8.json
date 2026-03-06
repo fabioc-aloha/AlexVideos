@@ -1,0 +1,16 @@
+{
+  "prompt": "Flash cut: Clock on kitchen wall reads 8:47 AM. Quick, precise shot. Digital clock face clearly visible. American animation cartoon style.",
+  "model": "xai/grok-imagine-video",
+  "modelName": "Grok Video",
+  "duration": 1,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:08:46.810Z",
+  "elapsed": "36.1s",
+  "fileSize": "0.97MB",
+  "outputFile": "2026-03-05T14-08-46_grok_Flash-cut-Clock-on-kitchen-wall-reads-8.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/K0osmT54DobyH5h7fkTmlb6IcGObRPGecNOcVGPbwnttB0NWA/tmpm20eydj9.mp4"
+}

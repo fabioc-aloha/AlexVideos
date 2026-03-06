@@ -22,9 +22,9 @@
     {
       "target": ".github/skills/vscode-extension-patterns/SKILL.md",
       "type": "supports",
-      "strength": 0.7,
-      "when": "creating extension icons",
-      "yields": "Icon size requirements, package.json icon field"
+      "strength": 0.8,
+      "when": "creating extension icons or Command Center SVG icon sets",
+      "yields": "Icon size requirements, package.json icon field, sidebar readability constraints (16-24px)"
     },
     {
       "target": ".github/skills/visual-memory/SKILL.md",

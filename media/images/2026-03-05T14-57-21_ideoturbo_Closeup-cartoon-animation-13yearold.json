@@ -1,0 +1,22 @@
+{
+  "prompt": "Close-up cartoon animation: 13-year-old boy with curly auburn hair meets eyes with someone off-frame, head tilted slightly, expression neutral with the faintest hint of a smile at the corner of his mouth. Faint analytical glyphs orbit softly. American animation style.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:57:21.921Z",
+  "elapsed": "8.6s",
+  "files": [
+    {
+      "name": "2026-03-05T14-57-21_ideoturbo_Closeup-cartoon-animation-13yearold.png",
+      "size": "0.57MB",
+      "url": "https://replicate.delivery/xezq/XBELw7pjVo4GAFpkCvLx9YOeGYTIaP67woq4XyywUh7oX6GLA/tmpvte9dgb9.png"
+    }
+  ]
+}

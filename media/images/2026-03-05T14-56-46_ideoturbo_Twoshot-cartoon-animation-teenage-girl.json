@@ -1,0 +1,22 @@
+{
+  "prompt": "Two-shot cartoon animation: teenage girl (17, wavy auburn hair, purple hoodie) sitting at a kitchen counter looking at her phone with a knowing smirk, one eyebrow raised, watching a 13-year-old boy (curly auburn hair, green shirt) sitting at a breakfast table in her peripheral vision. Faint glowing purple analytical glyphs orbit the boy's head. Early morning kitchen, warm light. American animation style.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:56:47.153Z",
+  "elapsed": "6.4s",
+  "files": [
+    {
+      "name": "2026-03-05T14-56-46_ideoturbo_Twoshot-cartoon-animation-teenage-girl.png",
+      "size": "0.78MB",
+      "url": "https://replicate.delivery/xezq/9uEnL4D3OCaaKtKzsQR7EVq5rzXrd04O4M9fUCwOWo3XX6GLA/tmp2j4x2d1x.png"
+    }
+  ]
+}

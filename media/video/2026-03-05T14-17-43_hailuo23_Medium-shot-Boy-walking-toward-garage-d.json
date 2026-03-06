@@ -1,0 +1,16 @@
+{
+  "prompt": "Medium shot: Boy walking toward garage door, drawn by instinct. Glyphs swirl around him as he approaches the damaged area. American animation cartoon style.",
+  "model": "minimax/hailuo-2.3",
+  "modelName": "Hailuo-2.3",
+  "duration": 6,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:17:44.281Z",
+  "elapsed": "81.8s",
+  "fileSize": "2.09MB",
+  "outputFile": "2026-03-05T14-17-43_hailuo23_Medium-shot-Boy-walking-toward-garage-d.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/Jp4a1zkLPhrmCZyLKOEh8DisEXexto7TjOBXlwfi6pdHK0NWA/tmpnm5ebbux.mp4"
+}

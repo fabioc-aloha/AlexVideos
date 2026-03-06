@@ -1,0 +1,22 @@
+{
+  "prompt": "Wide establishing shot of a warm cozy cartoon kitchen, 7 AM golden morning light. A 13-year-old boy with curly auburn hair in a green shirt sits at a round white table eating cereal. A teenage girl with wavy auburn hair in a purple hoodie sits at the counter with a phone face-down. A woman in nurse scrubs pours coffee. Potted plants on windowsill, spice rack on wall. American animation style, Studio Ghibli warmth, Cartoon Network line weight.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:56:23.838Z",
+  "elapsed": "7.0s",
+  "files": [
+    {
+      "name": "2026-03-05T14-56-23_ideoturbo_Wide-establishing-shot-of-a-warm-cozy-ca.png",
+      "size": "0.94MB",
+      "url": "https://replicate.delivery/xezq/nl5pu4NKfMU3K6qtA0S70EFApv1Ryz9OHgcXCKkKLnpLX6GLA/tmpkzhe0wj_.png"
+    }
+  ]
+}

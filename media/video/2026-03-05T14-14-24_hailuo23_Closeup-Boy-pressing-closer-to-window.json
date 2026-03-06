@@ -1,0 +1,16 @@
+{
+  "prompt": "Close-up: Boy pressing closer to window, analytical expression intensifying. Glyphs now form complex orbital patterns around his head. Something's very wrong. American animation cartoon style.",
+  "model": "minimax/hailuo-2.3",
+  "modelName": "Hailuo-2.3",
+  "duration": 6,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\prologue.png",
+  "timestamp": "2026-03-05T14:14:25.292Z",
+  "elapsed": "90.9s",
+  "fileSize": "3.15MB",
+  "outputFile": "2026-03-05T14-14-24_hailuo23_Closeup-Boy-pressing-closer-to-window.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/zQNypvxCg8LdKFh7VVMx6LuNUzi6lQCx1VCSfftQQpHAH0NWA/tmpzl5y86r4.mp4"
+}

@@ -1,0 +1,16 @@
+{
+  "prompt": "Wide establishing shot of a warm cozy cartoon kitchen, 7 AM golden morning light. A 13-year-old boy with curly auburn hair in a green shirt sits at a round white table eating cereal. A teenage girl with wavy auburn hair in a purple hoodie sits at the counter with a phone face-down. A woman in nurse scrubs pours coffee. Potted plants on windowsill, spice rack on wall. American animation style, Studio Ghibli warmth, Cartoon Network line weight.",
+  "model": "xai/grok-imagine-video",
+  "modelName": "Grok Video",
+  "duration": 7,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\media\\frames\\frame-01.png",
+  "timestamp": "2026-03-05T14:55:16.801Z",
+  "elapsed": "34.5s",
+  "fileSize": "2.26MB",
+  "outputFile": "2026-03-05T14-55-15_grok_Wide-establishing-shot-of-a-warm-cozy-ca.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/SNWDpj7SMlbEL5vyPVJiFj7kxpHikMxeS0Ra0FDrqg6pW6GLA/tmpt6ha49j7.mp4"
+}

@@ -1,0 +1,22 @@
+{
+  "prompt": "Medium shot cartoon animation: 13-year-old boy with curly auburn hair in a green shirt at a kitchen table while analytical glyphs form a floating timeline beside him showing timestamps 7:11, 7:14, 7:23 as colored glyph-dots on a glowing line. Expression completely matter-of-fact. American animation style, warm kitchen morning light.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:57:07.318Z",
+  "elapsed": "7.2s",
+  "files": [
+    {
+      "name": "2026-03-05T14-57-07_ideoturbo_Medium-shot-cartoon-animation-13yearo.png",
+      "size": "0.73MB",
+      "url": "https://replicate.delivery/xezq/3R1ecwG4DpwNW6N1eOzfYfntdBPeeqtfIuJaTXUnlfMeHeS3YB/tmpv3atpbg0.png"
+    }
+  ]
+}

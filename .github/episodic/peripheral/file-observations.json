@@ -6,13 +6,17 @@
     "generate-music.js"
   ],
   "stalledFiles": [
-    "github/config/alex-manifest.json",
-    "generate-edit-video.js",
-    "NORTH-STAR.md",
-    "docs/video-series-compilation-workflow.md",
-    "projects/alex-breakfast/",
-    "projects/sports-videos/"
+    "github/episodic/peripheral/file-observations.json",
+    "projects/alex-breakfast/storyboard-ep00.md",
+    "media/images/2026-03-05T14-49-51_imagen4_Closeup-cartoon-animation-13yearold.jpg",
+    "media/images/2026-03-05T14-49-51_imagen4_Closeup-cartoon-animation-13yearold.json",
+    "media/images/2026-03-05T14-55-03_ideoturbo_Wide-establishing-shot-of-a-warm-cozy-ca.json",
+    "media/images/2026-03-05T14-55-03_ideoturbo_Wide-establishing-shot-of-a-warm-cozy-ca.png",
+    "media/images/2026-03-05T14-56-23_ideoturbo_Wide-establishing-shot-of-a-warm-cozy-ca.json",
+    "media/images/2026-03-05T14-56-23_ideoturbo_Wide-establishing-shot-of-a-warm-cozy-ca.png",
+    "media/images/2026-03-05T14-56-30_ideoturbo_A-13yearold-boy-with-curly-auburn-hair.json",
+    "media/images/2026-03-05T14-56-30_ideoturbo_A-13yearold-boy-with-curly-auburn-hair.png"
   ],
   "todoHotspots": [],
-  "lastUpdated": 1772717598821
+  "lastUpdated": 1772811453359
 }

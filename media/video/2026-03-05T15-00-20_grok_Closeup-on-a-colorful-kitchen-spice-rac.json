@@ -1,0 +1,16 @@
+{
+  "prompt": "Close-up on a colorful kitchen spice rack with jars in alphabetical order. A glowing amber exclamation glyph pulses around the rack. A faint ghostly duplicate shows the previous arrangement beside it. Warm cartoon animation, golden morning light, analytical overlay.",
+  "model": "xai/grok-imagine-video",
+  "modelName": "Grok Video",
+  "duration": 5,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "text-to-video",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T15:00:20.948Z",
+  "elapsed": "33.7s",
+  "fileSize": "1.47MB",
+  "outputFile": "2026-03-05T15-00-20_grok_Closeup-on-a-colorful-kitchen-spice-rac.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/q4FaC5K8E6auC1IG3y88kgWB8W3TjVxBybsSd6pW3NJhMdjF/tmp5xxady0t.mp4"
+}

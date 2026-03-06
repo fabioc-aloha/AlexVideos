@@ -1,0 +1,16 @@
+{
+  "prompt": "Two-shot cartoon animation: teenage girl (17, wavy auburn hair, purple hoodie) sitting at a kitchen counter looking at her phone with a knowing smirk, one eyebrow raised, watching a 13-year-old boy (curly auburn hair, green shirt) sitting at a breakfast table in her peripheral vision. Faint glowing purple analytical glyphs orbit the boy's head. Early morning kitchen, warm light. American animation style.",
+  "model": "minimax/hailuo-2.3",
+  "modelName": "Hailuo-2.3",
+  "duration": 6,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\media\\frames\\frame-07.png",
+  "timestamp": "2026-03-05T14:59:58.462Z",
+  "elapsed": "96.1s",
+  "fileSize": "0.53MB",
+  "outputFile": "2026-03-05T14-59-58_hailuo23_Twoshot-cartoon-animation-teenage-girl.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/k7kyLxqczsKtLxzuelslUhshG9E5q6eGRApq0VPw2Uxux0NWA/tmpa1hcy4_h.mp4"
+}

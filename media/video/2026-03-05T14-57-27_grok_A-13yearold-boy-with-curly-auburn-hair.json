@@ -1,0 +1,16 @@
+{
+  "prompt": "A 13-year-old boy with curly auburn hair leans toward a kitchen window. Through the window a suburban porch shows mail already in the mailbox. A glowing cyan glyph with a clock and envelope icon floats near the frame. Warm American cartoon style, morning light.",
+  "model": "xai/grok-imagine-video",
+  "modelName": "Grok Video",
+  "duration": 5,
+  "aspectRatio": "default",
+  "resolution": "default",
+  "negativePrompt": null,
+  "mode": "image-to-video",
+  "referenceImage": "projects\\alex-breakfast\\media\\frames\\frame-05.png",
+  "timestamp": "2026-03-05T14:57:27.532Z",
+  "elapsed": "32.9s",
+  "fileSize": "1.67MB",
+  "outputFile": "2026-03-05T14-57-27_grok_A-13yearold-boy-with-curly-auburn-hair.mp4",
+  "videoUrl": "https://replicate.delivery/xezq/oYlTc9p9xdInL5Wsf1iJQg048dfpZH4T6auOeaJVNAbseS3YB/tmputbakgpp.mp4"
+}

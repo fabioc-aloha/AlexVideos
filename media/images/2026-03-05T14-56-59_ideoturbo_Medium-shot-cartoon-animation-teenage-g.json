@@ -1,0 +1,22 @@
+{
+  "prompt": "Medium shot cartoon animation: teenage girl (17, wavy auburn hair, purple hoodie) theatrically mimicking a detective's squint — face scrunched, hands waving in circles around her head in an exaggerated impression. Expression is fond mockery. Kitchen background, warm morning light. American cartoon style.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:56:59.896Z",
+  "elapsed": "6.4s",
+  "files": [
+    {
+      "name": "2026-03-05T14-56-59_ideoturbo_Medium-shot-cartoon-animation-teenage-g.png",
+      "size": "0.72MB",
+      "url": "https://replicate.delivery/xezq/8of5GGyCqCxsESX1WWP65pf9weUvxdrc9Gih3hJHb2s2dpbsA/tmpmuphv21z.png"
+    }
+  ]
+}

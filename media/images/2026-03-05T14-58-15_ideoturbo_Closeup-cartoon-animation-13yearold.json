@@ -1,0 +1,22 @@
+{
+  "prompt": "Close-up cartoon animation: 13-year-old boy with curly auburn hair stares at the table surface, eyes moving subtly, brain processing. A single analytical glyph pulses softly once near his temple. Expression quiet, unsettled, focused inward. Warm kitchen morning light. American animation style.",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "16:9",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-05T14:58:15.872Z",
+  "elapsed": "5.7s",
+  "files": [
+    {
+      "name": "2026-03-05T14-58-15_ideoturbo_Closeup-cartoon-animation-13yearold.png",
+      "size": "0.53MB",
+      "url": "https://replicate.delivery/xezq/edQfeWyfXfgdimScZVhueDjUBCN6Du4wg5fddpKsCuisDY6GLA/tmpgj7b8afa.png"
+    }
+  ]
+}
