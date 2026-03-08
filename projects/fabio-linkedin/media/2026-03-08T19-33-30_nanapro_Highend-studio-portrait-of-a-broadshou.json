@@ -1,0 +1,24 @@
+{
+  "prompt": "High-end studio portrait of a broad-shouldered man in his mid-50s with dark hair brushed back and a short silver-gray beard, wearing a tailored navy suit with pocket square, medium gray seamless backdrop, butterfly lighting from overhead beauty dish with two strip softboxes as rim lights, polished editorial look, Vanity Fair style, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImages": [
+    "./projects/fabio-linkedin/ref-05.jpg"
+  ],
+  "timestamp": "2026-03-08T19:33:30.875Z",
+  "elapsed": "45.3s",
+  "files": [
+    {
+      "name": "2026-03-08T19-33-30_nanapro_Highend-studio-portrait-of-a-broadshou.jpg",
+      "size": "0.37MB",
+      "url": "https://replicate.delivery/xezq/Pz09BgpPDt5jC1TQUp9FnhzPh1ncig4fj3ZtGrHrxmCFCcHLA/tmpc72e_9ls.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "prompt": "Cinematic portrait of a broad-shouldered man in his mid-50s with dark hair brushed back and a short silver-gray beard, wearing a charcoal turtleneck, gazing out a rain-streaked floor-to-ceiling window in a high-rise apartment, city lights softly blurred through the rain, a manuscript and reading glasses on the table beside him, moody blue and warm gold split lighting, introspective literary author portrait, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImages": [
+    "./projects/fabio-linkedin/ref-05.jpg",
+    "./projects/fabio-linkedin/front-cover.jpg",
+    "./projects/fabio-linkedin/front.jpg"
+  ],
+  "timestamp": "2026-03-08T19:26:40.736Z",
+  "elapsed": "35.1s",
+  "files": [
+    {
+      "name": "2026-03-08T19-26-40_nanapro_Cinematic-portrait-of-a-broadshouldered.jpg",
+      "size": "0.41MB",
+      "url": "https://replicate.delivery/xezq/VX7OHOAvP04KK5kI5IzcsldARN6lqljF0MeoKcE7ILL4e3OWA/tmpijlbmoow.jpeg"
+    }
+  ]
+}

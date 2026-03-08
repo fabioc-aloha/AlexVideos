@@ -1,0 +1,22 @@
+{
+  "prompt": "A charismatic Brazilian man in his 30s on a conference stage, dark suit, gesturing mid-speech to an audience, warm stage lighting with soft lens flare, blurred crowd in foreground, confident and passionate expression, keynote speaker moment",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-03.png",
+  "timestamp": "2026-03-08T18:06:14.142Z",
+  "elapsed": "26.0s",
+  "files": [
+    {
+      "name": "2026-03-08T18-06-13_nanapro_A-charismatic-Brazilian-man-in-his-30s-o.jpg",
+      "size": "0.38MB",
+      "url": "https://replicate.delivery/xezq/HXgzuiCWde2iTypQwlHOFdts83gxgBirDYpGKvyT4F4KZbHLA/tmp7ytrcf8a.jpeg"
+    }
+  ]
+}

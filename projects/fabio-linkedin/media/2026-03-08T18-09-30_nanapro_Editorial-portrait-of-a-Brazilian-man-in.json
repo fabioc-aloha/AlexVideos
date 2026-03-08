@@ -1,0 +1,22 @@
+{
+  "prompt": "Editorial portrait of a Brazilian man in his 30s in a smart casual dark shirt, holding a hardcover book, warm natural lighting, bookshelf background, approachable published author",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-02.png",
+  "timestamp": "2026-03-08T18:09:30.316Z",
+  "elapsed": "41.3s",
+  "files": [
+    {
+      "name": "2026-03-08T18-09-30_nanapro_Editorial-portrait-of-a-Brazilian-man-in.jpg",
+      "size": "0.38MB",
+      "url": "https://replicate.delivery/xezq/Q1Pod4AxZmZqO1OffjS1AHOrXAiob8bVd3B3UTLFQVKZ12OWA/tmpbz4yfmin.jpeg"
+    }
+  ]
+}

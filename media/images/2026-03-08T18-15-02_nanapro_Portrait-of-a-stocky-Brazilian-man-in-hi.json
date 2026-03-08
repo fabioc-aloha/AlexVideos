@@ -1,0 +1,22 @@
+{
+  "prompt": "Portrait of a stocky Brazilian man in his mid-40s with short dark hair and a salt-and-pepper beard with gray on the chin, wearing a dark blazer over a casual plaid shirt, holding a hardcover book confidently at chest level, warm bokeh background of a bookshelf, soft golden lighting, proud but relaxed expression, published author portrait, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-02.png",
+  "timestamp": "2026-03-08T18:15:03.187Z",
+  "elapsed": "25.7s",
+  "files": [
+    {
+      "name": "2026-03-08T18-15-02_nanapro_Portrait-of-a-stocky-Brazilian-man-in-hi.jpg",
+      "size": "0.49MB",
+      "url": "https://replicate.delivery/xezq/W73wPJWkxf2sbyxeFDGk5Iz2fKfyMwqpxD3TB7t0fpZzU32xC/tmpky7xec07.jpeg"
+    }
+  ]
+}

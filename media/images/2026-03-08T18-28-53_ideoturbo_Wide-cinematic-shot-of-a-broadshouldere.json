@@ -1,0 +1,22 @@
+{
+  "prompt": "Wide cinematic shot of a broad-shouldered man in his mid-40s with short dark hair and a salt-and-pepper beard, wearing a dark blazer over a plaid shirt, sitting at a polished wooden desk with an open manuscript, fountain pen, and two published hardcover books, warm directional lighting, shallow depth of field, modern minimalist office, author at work, photorealistic",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "3:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-08T18:28:54.124Z",
+  "elapsed": "6.3s",
+  "files": [
+    {
+      "name": "2026-03-08T18-28-53_ideoturbo_Wide-cinematic-shot-of-a-broadshouldere.png",
+      "size": "0.81MB",
+      "url": "https://replicate.delivery/xezq/EBkqJVAZMxIeCK49iGWfy3IDUf41XefjK9ArOyHz4fVd5xtjF/tmpc96dx3mm.png"
+    }
+  ]
+}

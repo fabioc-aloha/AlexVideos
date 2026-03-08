@@ -1,0 +1,22 @@
+{
+  "prompt": "A Brazilian man in his 30s in a dark henley shirt, standing in a modern creative studio with multiple monitors showing code and video timelines, a bookshelf with published novels in the background, dramatic side lighting, arms crossed, confident half-smile, tech-creative hybrid portrait",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-03.png",
+  "timestamp": "2026-03-08T18:06:56.711Z",
+  "elapsed": "31.3s",
+  "files": [
+    {
+      "name": "2026-03-08T18-06-56_nanapro_A-Brazilian-man-in-his-30s-in-a-dark-hen.jpg",
+      "size": "0.72MB",
+      "url": "https://replicate.delivery/xezq/wIveyJvaeEhYtEZX34skGJGQoWDLYQy21DA0795LVPVfltdsA/tmpokhj5d3s.jpeg"
+    }
+  ]
+}

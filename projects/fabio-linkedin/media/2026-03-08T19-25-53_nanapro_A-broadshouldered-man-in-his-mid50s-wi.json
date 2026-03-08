@@ -1,0 +1,24 @@
+{
+  "prompt": "A broad-shouldered man in his mid-50s with dark hair brushed back and a short silver-gray beard, wearing a dark henley shirt, sitting in a creative studio surrounded by ultrawide monitors glowing with code editors and video editing timelines, neon-tinged ambient light reflecting off his face, published books stacked on the desk corner, shallow depth of field, focused intense expression, cyberpunk-meets-editorial portrait, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImages": [
+    "./projects/fabio-linkedin/ref-01.png"
+  ],
+  "timestamp": "2026-03-08T19:25:53.768Z",
+  "elapsed": "46.6s",
+  "files": [
+    {
+      "name": "2026-03-08T19-25-53_nanapro_A-broadshouldered-man-in-his-mid50s-wi.jpg",
+      "size": "0.37MB",
+      "url": "https://replicate.delivery/xezq/tkcpkzk4sP6qHxBaFAXXUEEdcxBn3Btcfk6GVfQCBmUB93OWA/tmpcgvvsswm.jpeg"
+    }
+  ]
+}

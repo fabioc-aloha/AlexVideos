@@ -1,0 +1,22 @@
+{
+  "prompt": "Portrait of a broad-shouldered Brazilian man in his mid-40s with short dark hair and a salt-and-pepper beard with gray on the chin, wearing a dark blazer over a casual plaid shirt, holding a hardcover book confidently at chest level, warm bokeh background of a bookshelf, soft golden lighting, proud but relaxed expression, published author portrait, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-02.png",
+  "timestamp": "2026-03-08T18:23:42.907Z",
+  "elapsed": "38.5s",
+  "files": [
+    {
+      "name": "2026-03-08T18-23-42_nanapro_Portrait-of-a-broadshouldered-Brazilian.jpg",
+      "size": "0.44MB",
+      "url": "https://replicate.delivery/xezq/sUOFYe6GeuioKEAWeckqGJmi6ys32CVE7qL1SUl8mdhbFudsA/tmpvpknqi2x.jpeg"
+    }
+  ]
+}

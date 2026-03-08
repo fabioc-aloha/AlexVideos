@@ -1,0 +1,24 @@
+{
+  "prompt": "Professional studio portrait of a broad-shouldered man in his mid-50s with dark hair brushed back and a full silver-gray beard, wearing a crisp white dress shirt with top button undone, clean white seamless backdrop, large octabox softbox as key light from 45 degrees, fill light on opposite side, perfect skin detail, sharp focus on eyes, shallow depth of field, high-end headshot studio, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImages": [
+    "./projects/fabio-linkedin/ref-05.jpg"
+  ],
+  "timestamp": "2026-03-08T19:00:45.441Z",
+  "elapsed": "38.8s",
+  "files": [
+    {
+      "name": "2026-03-08T19-00-45_nanapro_Professional-studio-portrait-of-a-broad.jpg",
+      "size": "0.36MB",
+      "url": "https://replicate.delivery/xezq/dgqrxZi6lEJKDR1H4KrvAr4vR2Ec99xaMLoXNsXLMmcX5tjF/tmpx4fo910j.jpeg"
+    }
+  ]
+}

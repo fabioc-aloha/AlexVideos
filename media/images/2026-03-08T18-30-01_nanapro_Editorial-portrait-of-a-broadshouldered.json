@@ -1,0 +1,22 @@
+{
+  "prompt": "Editorial portrait of a broad-shouldered man in his mid-40s with short dark hair and a salt-and-pepper beard with gray on the chin, wearing a smart casual dark shirt, holding a hardcover book, warm natural lighting, bookshelf background, approachable published author, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-04.png",
+  "timestamp": "2026-03-08T18:30:02.069Z",
+  "elapsed": "33.7s",
+  "files": [
+    {
+      "name": "2026-03-08T18-30-01_nanapro_Editorial-portrait-of-a-broadshouldered.jpg",
+      "size": "0.37MB",
+      "url": "https://replicate.delivery/xezq/eemkQfj5pCaNUIxOdmHQCL1ZvJdkUdEKejka150VSUcmic7YB/tmpmvpaj944.jpeg"
+    }
+  ]
+}

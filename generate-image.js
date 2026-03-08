@@ -59,8 +59,9 @@ const MODELS = {
         output_format: opts.format || "jpg",
         safety_filter_level: "block_only_high",
       };
-      if (imageUri) input.image_input = [imageUri];
-      if (!imageUri) input.aspect_ratio = opts.aspect || "1:1";
+      if (opts.imageUris && opts.imageUris.length) input.image_input = opts.imageUris;
+      else if (imageUri) input.image_input = [imageUri];
+      if (!imageUri && (!opts.imageUris || !opts.imageUris.length)) input.aspect_ratio = opts.aspect || "1:1";
       return input;
     },
   },
@@ -342,7 +343,8 @@ function parseArgs() {
   const result = {
     prompt: null,
     model: "nanapro",
-    image: null,
+    image: [],
+    _singleImage: null,
     aspect: null,
     resolution: null,
     style: null,
@@ -358,7 +360,7 @@ function parseArgs() {
     if (args[i] === "--model" && args[i + 1]) {
       result.model = args[++i].toLowerCase();
     } else if (args[i] === "--image" && args[i + 1]) {
-      result.image = args[++i];
+      result.image.push(args[++i]);
     } else if ((args[i] === "--aspect" || args[i] === "--ratio") && args[i + 1]) {
       result.aspect = args[++i];
     } else if (args[i] === "--resolution" && args[i + 1]) {
@@ -530,9 +532,10 @@ async function main() {
   const outputDir = path.join(__dirname, "media/images");
   fs.mkdirSync(outputDir, { recursive: true });
 
-  // Resolve reference image if provided
+  // Resolve reference image(s) if provided
   let imageUri = null;
-  if (image) {
+  let imageUris = [];
+  if (image.length > 0) {
     if (!modelDef.supportsImage) {
       const imageModels = Object.entries(MODELS)
         .filter(([, m]) => m.supportsImage)
@@ -541,8 +544,10 @@ async function main() {
       console.error(`❌ ${modelDef.name} does not support image input. Try: ${imageModels}`);
       process.exit(1);
     }
-    imageUri = imageToDataUri(image);
+    imageUris = image.map(img => imageToDataUri(img));
+    imageUri = imageUris[0];
   }
+  opts.imageUris = imageUris;
 
   console.log(`\n🎨 Generating image with ${modelDef.name}`);
   console.log(`   Prompt:   "${prompt}"`);
@@ -553,7 +558,7 @@ async function main() {
   if (format) console.log(`   Format:   ${format}`);
   if (seed != null) console.log(`   Seed:     ${seed}`);
   if (count) console.log(`   Count:    ${count}`);
-  console.log(`   Mode:     ${imageUri ? "Image-to-Image 🖼️" : "Text-to-Image"}\n`);
+  console.log(`   Mode:     ${imageUri ? `Image-to-Image 🖼️ (${image.length} ref${image.length > 1 ? 's' : ''})` : "Text-to-Image"}\n`);
 
   const startTime = Date.now();
 
@@ -604,7 +609,7 @@ async function main() {
       seed: seed ?? null,
       count: imageUrls.length,
       mode: imageUri ? "image-to-image" : "text-to-image",
-      referenceImage: image || null,
+      referenceImages: image.length > 0 ? image : null,
       timestamp: new Date().toISOString(),
       elapsed: `${elapsed}s`,
       files: savedFiles.map((f) => ({ name: f.filename, size: `${f.fileSize}MB`, url: f.url })),

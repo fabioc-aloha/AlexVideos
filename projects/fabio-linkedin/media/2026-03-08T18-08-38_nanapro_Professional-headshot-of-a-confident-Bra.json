@@ -1,0 +1,22 @@
+{
+  "prompt": "Professional headshot of a confident Brazilian man in his 30s, dark blazer, soft studio lighting, warm gray backdrop, relaxed confident expression, LinkedIn profile photo",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-01.png",
+  "timestamp": "2026-03-08T18:08:38.385Z",
+  "elapsed": "22.5s",
+  "files": [
+    {
+      "name": "2026-03-08T18-08-38_nanapro_Professional-headshot-of-a-confident-Bra.jpg",
+      "size": "0.41MB",
+      "url": "https://replicate.delivery/xezq/USihxOe8cx1aVykgvjuQNiebgXWuZDsncf7p1ktz0ShMptdsA/tmp3yv4_wln.jpeg"
+    }
+  ]
+}

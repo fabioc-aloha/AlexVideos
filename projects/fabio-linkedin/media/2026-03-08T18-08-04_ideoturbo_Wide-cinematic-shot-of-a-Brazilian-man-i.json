@@ -1,0 +1,22 @@
+{
+  "prompt": "Wide cinematic shot of a Brazilian man in his 30s in a dark blazer, sitting at a polished wooden desk with an open manuscript, fountain pen, and a published hardcover book, warm directional lighting, shallow depth of field, modern minimalist office, author at work",
+  "model": "ideogram-ai/ideogram-v3-turbo",
+  "modelName": "Ideogram v3 Turbo",
+  "aspectRatio": "3:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "text-to-image",
+  "referenceImage": null,
+  "timestamp": "2026-03-08T18:08:04.315Z",
+  "elapsed": "5.9s",
+  "files": [
+    {
+      "name": "2026-03-08T18-08-04_ideoturbo_Wide-cinematic-shot-of-a-Brazilian-man-i.png",
+      "size": "0.83MB",
+      "url": "https://replicate.delivery/xezq/feo6zEYWTZh2VUSnybRE9qZhsCQc4uMlcDS7yVyYteeNQb7YB/tmpmxrtqoa2.png"
+    }
+  ]
+}

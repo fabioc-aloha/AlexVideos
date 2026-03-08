@@ -1,0 +1,22 @@
+{
+  "prompt": "A stocky Brazilian man in his mid-40s with short dark hair and a salt-and-pepper beard with silver on the chin, wearing a smart dark button-up shirt, sitting at a modern desk with an open laptop and a stack of published books beside him, soft warm window lighting, shallow depth of field, thoughtful expression, creative workspace, editorial portrait, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-01.png",
+  "timestamp": "2026-03-08T18:14:18.498Z",
+  "elapsed": "40.4s",
+  "files": [
+    {
+      "name": "2026-03-08T18-14-18_nanapro_A-stocky-Brazilian-man-in-his-mid40s-wi.jpg",
+      "size": "0.34MB",
+      "url": "https://replicate.delivery/xezq/ytdaW5darVYnChMhO4QivvO1Q5WenQl95y3kFHudxuZ9cbHLA/tmpine3cgad.jpeg"
+    }
+  ]
+}

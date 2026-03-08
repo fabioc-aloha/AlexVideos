@@ -1,0 +1,22 @@
+{
+  "prompt": "Professional headshot of a stocky Brazilian man in his mid-40s with short dark hair and a salt-and-pepper beard with silver on the chin, wearing a dark blazer over a plaid button-up shirt, soft studio lighting, warm gray backdrop, relaxed confident expression, gold chain necklace, LinkedIn profile photo, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-02.png",
+  "timestamp": "2026-03-08T18:19:17.270Z",
+  "elapsed": "25.8s",
+  "files": [
+    {
+      "name": "2026-03-08T18-19-17_nanapro_Professional-headshot-of-a-stocky-Brazil.jpg",
+      "size": "0.44MB",
+      "url": "https://replicate.delivery/xezq/0bpS0ykYRJZDJJeBRWFZBvsg86hQEMRt7IIOnoYW9haSf2OWA/tmp0w5hi0kc.jpeg"
+    }
+  ]
+}

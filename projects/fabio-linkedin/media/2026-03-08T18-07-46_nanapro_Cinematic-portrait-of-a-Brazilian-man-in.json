@@ -1,0 +1,22 @@
+{
+  "prompt": "Cinematic portrait of a Brazilian man in his 30s wearing a charcoal turtleneck, leaning against a tall bookshelf in a warm library, one hand resting on a shelf of books, soft amber lighting, rich wood tones, contemplative gaze, literary author portrait",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-03.png",
+  "timestamp": "2026-03-08T18:07:46.252Z",
+  "elapsed": "38.5s",
+  "files": [
+    {
+      "name": "2026-03-08T18-07-46_nanapro_Cinematic-portrait-of-a-Brazilian-man-in.jpg",
+      "size": "0.43MB",
+      "url": "https://replicate.delivery/xezq/27it89iQZmImI1L5aRJ9pmyqhjBymKbh4nljUl1kJ3S8stjF/tmpdf6ftgls.jpeg"
+    }
+  ]
+}

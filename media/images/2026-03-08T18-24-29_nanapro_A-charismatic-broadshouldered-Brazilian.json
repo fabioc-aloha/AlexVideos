@@ -1,0 +1,22 @@
+{
+  "prompt": "A charismatic broad-shouldered Brazilian man in his mid-40s with short dark hair and a salt-and-pepper beard, on a conference stage wearing a dark navy blazer, gesturing mid-speech to an audience, warm stage lighting with soft lens flare, blurred crowd in foreground, confident and passionate expression, keynote speaker moment, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-02.png",
+  "timestamp": "2026-03-08T18:24:29.847Z",
+  "elapsed": "28.8s",
+  "files": [
+    {
+      "name": "2026-03-08T18-24-29_nanapro_A-charismatic-broadshouldered-Brazilian.jpg",
+      "size": "0.29MB",
+      "url": "https://replicate.delivery/xezq/KYcCQYnMudoPPZSiyuGNczbHVqebNAg8etC4aBGgoWFdD3OWA/tmpab92cc2g.jpeg"
+    }
+  ]
+}

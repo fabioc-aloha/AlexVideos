@@ -1,0 +1,22 @@
+{
+  "prompt": "Cinematic portrait of a broad-shouldered man in his mid-40s with short dark hair and a salt-and-pepper beard with gray on the chin, wearing a charcoal turtleneck, leaning against a tall bookshelf in a warm library, one hand resting on a shelf of books, soft amber lighting, rich wood tones, contemplative gaze, literary author portrait, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-01.png",
+  "timestamp": "2026-03-08T18:28:40.905Z",
+  "elapsed": "36.4s",
+  "files": [
+    {
+      "name": "2026-03-08T18-28-40_nanapro_Cinematic-portrait-of-a-broadshouldered.jpg",
+      "size": "0.50MB",
+      "url": "https://replicate.delivery/xezq/kdlBbko0pHKTGZLbJESu9ZRzMltcFBUCNwEeDBbTVfqXH3OWA/tmp703c38cr.jpeg"
+    }
+  ]
+}

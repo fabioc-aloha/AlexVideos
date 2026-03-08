@@ -1,0 +1,26 @@
+{
+  "prompt": "Studio author portrait of a broad-shouldered man in his mid-50s with dark hair brushed back and a thick silver-gray beard, wearing a rich burgundy sweater, holding both of his published hardcover books at waist level showing the covers to camera, warm cream studio backdrop, large octabox key light with subtle kicker light on hair, proud accomplished expression, published author promotional portrait, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImages": [
+    "./projects/fabio-linkedin/ref-05.jpg",
+    "./projects/fabio-linkedin/front-cover.jpg",
+    "./projects/fabio-linkedin/front.jpg"
+  ],
+  "timestamp": "2026-03-08T19:06:06.030Z",
+  "elapsed": "56.2s",
+  "files": [
+    {
+      "name": "2026-03-08T19-06-05_nanapro_Studio-author-portrait-of-a-broadshould.jpg",
+      "size": "0.45MB",
+      "url": "https://replicate.delivery/xezq/OWonIRqnraJ1GFCy5reCQGPnaXjmJquDPzV2JwNkslecq3OWA/tmp52p8yj42.jpeg"
+    }
+  ]
+}

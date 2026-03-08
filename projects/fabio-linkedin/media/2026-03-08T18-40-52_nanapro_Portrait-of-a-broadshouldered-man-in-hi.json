@@ -1,0 +1,26 @@
+{
+  "prompt": "Portrait of a broad-shouldered man in his mid-50s with dark hair brushed back and a full silver-gray beard, wearing a dark blazer over a casual plaid shirt, sitting at a bookshop signing table with an open hardcover and a pen in hand, stacks of his published books beside him, warm string lights blurred in the background, genuine proud smile, published author event photo, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImages": [
+    "./projects/fabio-linkedin/ref-02.png",
+    "./projects/fabio-linkedin/front-cover.jpg",
+    "./projects/fabio-linkedin/front.jpg"
+  ],
+  "timestamp": "2026-03-08T18:40:53.155Z",
+  "elapsed": "75.8s",
+  "files": [
+    {
+      "name": "2026-03-08T18-40-52_nanapro_Portrait-of-a-broadshouldered-man-in-hi.jpg",
+      "size": "0.52MB",
+      "url": "https://replicate.delivery/xezq/UnClpiuq2H43OtLb6hAt25b31onZjdehttgvYsOmyXYapbHLA/tmptkkp95bv.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "prompt": "Professional headshot of a broad-shouldered man in his mid-40s with short dark hair and a salt-and-pepper beard with silver on the chin, wearing a dark blazer over a plaid button-up shirt, soft studio lighting, warm gray backdrop, relaxed confident expression, gold chain necklace, LinkedIn profile photo, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-02.png",
+  "timestamp": "2026-03-08T18:29:23.261Z",
+  "elapsed": "24.1s",
+  "files": [
+    {
+      "name": "2026-03-08T18-29-23_nanapro_Professional-headshot-of-a-broadshoulde.jpg",
+      "size": "0.42MB",
+      "url": "https://replicate.delivery/xezq/YUOUa2YexaVEGS2HEHNFuneNUY7MpttfoiVuEvqxnoMFQudsA/tmp75u2rg8_.jpeg"
+    }
+  ]
+}

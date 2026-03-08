@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabio Correa — LinkedIn Photo Contact Sheet</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #1a1a2e;
+            color: #e0e0e0;
+            padding: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 300;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #7b8cde;
+            border-bottom: 1px solid #2a2a4a;
+            padding-bottom: 0.5rem;
+            margin: 2.5rem 0 1.5rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: #16213e;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+        }
+
+        .card img {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card .label {
+            padding: 0.75rem 1rem;
+            font-size: 0.75rem;
+            color: #aaa;
+            line-height: 1.4;
+        }
+
+        .card .label .number {
+            font-weight: 700;
+            color: #7b8cde;
+            font-size: 0.85rem;
+        }
+
+        .card .label .desc {
+            display: block;
+            margin-top: 0.25rem;
+            color: #ccc;
+            font-size: 0.8rem;
+        }
+
+        .badge {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background: rgba(0, 0, 0, 0.7);
+            color: #7b8cde;
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.92);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lightbox.active {
+            display: flex;
+        }
+
+        .lightbox img {
+            max-width: 90vw;
+            max-height: 90vh;
+            border-radius: 8px;
+            box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+        }
+
+        .lightbox .close {
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+            font-size: 2rem;
+            color: #fff;
+            cursor: pointer;
+            background: none;
+            border: none;
+            font-family: inherit;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #2a2a4a;
+            color: #555;
+            font-size: 0.75rem;
+        }
+
+        @media print {
+            body {
+                background: #fff;
+                color: #222;
+                padding: 1rem;
+            }
+
+            .card {
+                break-inside: avoid;
+            }
+
+            .card .label {
+                color: #444;
+            }
+
+            .lightbox {
+                display: none !important;
+            }
+
+            h2 {
+                color: #333;
+                border-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>FABIO CORREA</h1>
+    <p class="subtitle">LinkedIn Professional Photo Contact Sheet &mdash; March 2026</p>
+
+    <!-- Short Beard Series (Latest) -->
+    <h2>Creative Headshots — Short Beard (Latest)</h2>
+    <div class="grid">
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-22-35_nanapro_Professional-headshot-of-a-broadshoulde.jpg"
+                alt="Short Beard #1 — Classic Professional" loading="lazy">
+            <div class="label">
+                <span class="number">N-1</span>
+                <span class="desc">Classic Professional &bull; Navy suit &bull; Rembrandt lighting</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-23-25_nanapro_A-broadshouldered-man-in-his-mid50s-wi.jpg"
+                alt="Short Beard #2 — Late Night Author" loading="lazy">
+            <div class="label">
+                <span class="number">N-2</span>
+                <span class="desc">Late Night Author &bull; Typewriter &bull; Chiaroscuro</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-24-09_nanapro_Portrait-of-a-broadshouldered-man-in-hi.jpg"
+                alt="Short Beard #3 — Bookshop Signing" loading="lazy">
+            <div class="label">
+                <span class="number">N-3</span>
+                <span class="desc">Bookshop Signing &bull; Blazer + plaid &bull; String lights</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-24-54_nanapro_A-charismatic-broadshouldered-man-in-hi.jpg"
+                alt="Short Beard #4 — Keynote Moment" loading="lazy">
+            <div class="label">
+                <span class="number">N-4</span>
+                <span class="desc">Keynote Moment &bull; Conference stage &bull; Orange + blue lighting</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-25-53_nanapro_A-broadshouldered-man-in-his-mid50s-wi.jpg"
+                alt="Short Beard #5 — Dual Screens" loading="lazy">
+            <div class="label">
+                <span class="number">N-5</span>
+                <span class="desc">Dual Screens &bull; Code + video editing &bull; Cyberpunk editorial</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-26-40_nanapro_Cinematic-portrait-of-a-broadshouldered.jpg"
+                alt="Short Beard #6 — Rain Window" loading="lazy">
+            <div class="label">
+                <span class="number">N-6</span>
+                <span class="desc">Rain Window &bull; Turtleneck &bull; Moody split lighting</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-27-23_nanapro_Professional-headshot-of-a-broadshoulde.jpg"
+                alt="Short Beard #7 — Leather & Warmth" loading="lazy">
+            <div class="label">
+                <span class="number">N-7</span>
+                <span class="desc">Leather &amp; Warmth &bull; Brick wall &bull; Golden hour</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-28-17_nanapro_Editorial-portrait-of-a-broadshouldered.jpg"
+                alt="Short Beard #8 — Coffee & Craft" loading="lazy">
+            <div class="label">
+                <span class="number">N-8</span>
+                <span class="desc">Coffee &amp; Craft &bull; Coffee shop &bull; Morning light</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Studio Shoot (Short Beard) -->
+    <h2>Studio Photo Shoot — Short Beard (Latest)</h2>
+    <div class="grid">
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-31-44_nanapro_Professional-studio-portrait-of-a-broad.jpg"
+                alt="Studio #1 — White backdrop, octabox" loading="lazy">
+            <div class="label">
+                <span class="number">S-1</span>
+                <span class="desc">White seamless backdrop &bull; White dress shirt &bull; Octabox softbox key
+                    light</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-32-33_nanapro_Studio-headshot-of-a-broadshouldered-ma.jpg"
+                alt="Studio #2 — Dark charcoal, Rembrandt" loading="lazy">
+            <div class="label">
+                <span class="number">S-2</span>
+                <span class="desc">Dark charcoal backdrop &bull; Black V-neck &bull; Rembrandt lighting</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-33-30_nanapro_Highend-studio-portrait-of-a-broadshou.jpg"
+                alt="Studio #3 — Gray backdrop, butterfly lighting" loading="lazy">
+            <div class="label">
+                <span class="number">S-3</span>
+                <span class="desc">Gray backdrop &bull; Navy suit &bull; Butterfly lighting + beauty dish</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-34-21_nanapro_Cinematic-studio-portrait-of-a-broadsho.jpg"
+                alt="Studio #4 — Black backdrop, split lighting" loading="lazy">
+            <div class="label">
+                <span class="number">S-4</span>
+                <span class="desc">Black backdrop &bull; Charcoal turtleneck &bull; Split lighting + smoke haze</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-35-10_nanapro_Studio-portrait-of-a-broadshouldered-ma.jpg"
+                alt="Studio #5 — Warm muslin, window light" loading="lazy">
+            <div class="label">
+                <span class="number">S-5</span>
+                <span class="desc">Warm muslin backdrop &bull; Denim jacket &bull; Window-style softbox</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-35-52_nanapro_Studio-headshot-of-a-broadshouldered-ma.jpg"
+                alt="Studio #6 — Slate blue, clamshell" loading="lazy">
+            <div class="label">
+                <span class="number">S-6</span>
+                <span class="desc">Slate blue backdrop &bull; Blazer + plaid shirt &bull; Clamshell lighting</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-36-36_nanapro_Artistic-studio-portrait-of-a-broadshou.jpg"
+                alt="Studio #7 — Concrete wall, editorial" loading="lazy">
+            <div class="label">
+                <span class="number">S-7</span>
+                <span class="desc">Concrete wall &bull; Leather jacket &bull; Edison bulb &bull; Editorial grit</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">New</span>
+            <img src="media/2026-03-08T19-37-39_nanapro_Studio-author-portrait-of-a-broadshould.jpg"
+                alt="Studio #8 — Author with books" loading="lazy">
+            <div class="label">
+                <span class="number">S-8</span>
+                <span class="desc">Cream backdrop &bull; Burgundy sweater &bull; Holding both books &bull; Author
+                    promo</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Studio Shoot (Original) -->
+    <h2>Studio Photo Shoot (Original)</h2>
+    <div class="grid">
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Studio</span>
+            <img src="media/2026-03-08T19-00-45_nanapro_Professional-studio-portrait-of-a-broad.jpg"
+                alt="Studio #1 — White backdrop, octabox" loading="lazy">
+            <div class="label">
+                <span class="number">S-1</span>
+                <span class="desc">White seamless backdrop &bull; White dress shirt &bull; Octabox softbox key
+                    light</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Studio</span>
+            <img src="media/2026-03-08T19-01-28_nanapro_Studio-headshot-of-a-broadshouldered-ma.jpg"
+                alt="Studio #2 — Dark charcoal, Rembrandt" loading="lazy">
+            <div class="label">
+                <span class="number">S-2</span>
+                <span class="desc">Dark charcoal backdrop &bull; Black V-neck &bull; Rembrandt lighting</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Studio</span>
+            <img src="media/2026-03-08T19-02-11_nanapro_Highend-studio-portrait-of-a-broadshou.jpg"
+                alt="Studio #3 — Gray backdrop, butterfly lighting" loading="lazy">
+            <div class="label">
+                <span class="number">S-3</span>
+                <span class="desc">Gray backdrop &bull; Navy suit &bull; Butterfly lighting + beauty dish</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Studio</span>
+            <img src="media/2026-03-08T19-02-49_nanapro_Cinematic-studio-portrait-of-a-broadsho.jpg"
+                alt="Studio #4 — Black backdrop, split lighting" loading="lazy">
+            <div class="label">
+                <span class="number">S-4</span>
+                <span class="desc">Black backdrop &bull; Charcoal turtleneck &bull; Split lighting + smoke haze</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Studio</span>
+            <img src="media/2026-03-08T19-03-38_nanapro_Studio-portrait-of-a-broadshouldered-ma.jpg"
+                alt="Studio #5 — Warm muslin, window light" loading="lazy">
+            <div class="label">
+                <span class="number">S-5</span>
+                <span class="desc">Warm muslin backdrop &bull; Denim jacket &bull; Window-style softbox</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Studio</span>
+            <img src="media/2026-03-08T19-04-20_nanapro_Studio-headshot-of-a-broadshouldered-ma.jpg"
+                alt="Studio #6 — Slate blue, clamshell" loading="lazy">
+            <div class="label">
+                <span class="number">S-6</span>
+                <span class="desc">Slate blue backdrop &bull; Blazer + plaid shirt &bull; Clamshell lighting</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Studio</span>
+            <img src="media/2026-03-08T19-05-01_nanapro_Artistic-studio-portrait-of-a-broadshou.jpg"
+                alt="Studio #7 — Concrete wall, editorial" loading="lazy">
+            <div class="label">
+                <span class="number">S-7</span>
+                <span class="desc">Concrete wall &bull; Leather jacket &bull; Edison bulb &bull; Editorial grit</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Studio</span>
+            <img src="media/2026-03-08T19-06-05_nanapro_Studio-author-portrait-of-a-broadshould.jpg"
+                alt="Studio #8 — Author with books" loading="lazy">
+            <div class="label">
+                <span class="number">S-8</span>
+                <span class="desc">Cream backdrop &bull; Burgundy sweater &bull; Holding both books &bull; Author
+                    promo</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Creative Environmental -->
+    <h2>Creative Environmental Headshots</h2>
+    <div class="grid">
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Creative</span>
+            <img src="media/2026-03-08T18-38-39_nanapro_Professional-headshot-of-a-broadshoulde.jpg" alt="Creative #1"
+                loading="lazy">
+            <div class="label">
+                <span class="number">C-1</span>
+                <span class="desc">Professional headshot &bull; Author portrait style</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Creative</span>
+            <img src="media/2026-03-08T18-39-29_nanapro_A-broadshouldered-man-in-his-mid50s-wi.jpg" alt="Creative #2"
+                loading="lazy">
+            <div class="label">
+                <span class="number">C-2</span>
+                <span class="desc">Environmental portrait &bull; With published books</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Creative</span>
+            <img src="media/2026-03-08T18-40-52_nanapro_Portrait-of-a-broadshouldered-man-in-hi.jpg" alt="Creative #3"
+                loading="lazy">
+            <div class="label">
+                <span class="number">C-3</span>
+                <span class="desc">Portrait &bull; Window light style</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Creative</span>
+            <img src="media/2026-03-08T18-41-33_nanapro_A-charismatic-broadshouldered-man-in-hi.jpg" alt="Creative #4"
+                loading="lazy">
+            <div class="label">
+                <span class="number">C-4</span>
+                <span class="desc">Charismatic portrait &bull; Environmental</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Creative</span>
+            <img src="media/2026-03-08T18-42-22_nanapro_A-broadshouldered-man-in-his-mid50s-wi.jpg" alt="Creative #5"
+                loading="lazy">
+            <div class="label">
+                <span class="number">C-5</span>
+                <span class="desc">Lifestyle portrait &bull; Casual professional</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Creative</span>
+            <img src="media/2026-03-08T18-43-13_nanapro_Cinematic-portrait-of-a-broadshouldered.jpg" alt="Creative #6"
+                loading="lazy">
+            <div class="label">
+                <span class="number">C-6</span>
+                <span class="desc">Cinematic portrait &bull; With books</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Creative</span>
+            <img src="media/2026-03-08T18-43-57_nanapro_Professional-headshot-of-a-broadshoulde.jpg" alt="Creative #7"
+                loading="lazy">
+            <div class="label">
+                <span class="number">C-7</span>
+                <span class="desc">Professional headshot &bull; Clean backdrop</span>
+            </div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">Creative</span>
+            <img src="media/2026-03-08T18-44-45_nanapro_Editorial-portrait-of-a-broadshouldered.jpg" alt="Creative #8"
+                loading="lazy">
+            <div class="label">
+                <span class="number">C-8</span>
+                <span class="desc">Editorial portrait &bull; With books</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Early Round -->
+    <h2>Early Concepts (Round 1)</h2>
+    <div class="grid">
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">R1</span>
+            <img src="media/2026-03-08T18-03-58_nanapro_Professional-headshot-of-a-confident-Bra.jpg" alt="Round 1 #1"
+                loading="lazy">
+            <div class="label"><span class="number">R1-1</span></div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">R1</span>
+            <img src="media/2026-03-08T18-04-47_nanapro_A-confident-Brazilian-man-in-his-30s-wea.jpg" alt="Round 1 #2"
+                loading="lazy">
+            <div class="label"><span class="number">R1-2</span></div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">R1</span>
+            <img src="media/2026-03-08T18-05-37_nanapro_Portrait-of-a-Brazilian-man-in-his-30s-i.jpg" alt="Round 1 #3"
+                loading="lazy">
+            <div class="label"><span class="number">R1-3</span></div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">R1</span>
+            <img src="media/2026-03-08T18-06-13_nanapro_A-charismatic-Brazilian-man-in-his-30s-o.jpg" alt="Round 1 #4"
+                loading="lazy">
+            <div class="label"><span class="number">R1-4</span></div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">R1</span>
+            <img src="media/2026-03-08T18-06-56_nanapro_A-Brazilian-man-in-his-30s-in-a-dark-hen.jpg" alt="Round 1 #5"
+                loading="lazy">
+            <div class="label"><span class="number">R1-5</span></div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">R1</span>
+            <img src="media/2026-03-08T18-07-46_nanapro_Cinematic-portrait-of-a-Brazilian-man-in.jpg" alt="Round 1 #6"
+                loading="lazy">
+            <div class="label"><span class="number">R1-6</span></div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">R1</span>
+            <img src="media/2026-03-08T18-08-38_nanapro_Professional-headshot-of-a-confident-Bra.jpg" alt="Round 1 #7"
+                loading="lazy">
+            <div class="label"><span class="number">R1-7</span></div>
+        </div>
+        <div class="card" onclick="openLightbox(this)">
+            <span class="badge">R1</span>
+            <img src="media/2026-03-08T18-09-30_nanapro_Editorial-portrait-of-a-Brazilian-man-in.jpg" alt="Round 1 #8"
+                loading="lazy">
+            <div class="label"><span class="number">R1-8</span></div>
+        </div>
+    </div>
+
+    <footer>
+        Generated with Nano Banana Pro via AlexVideos &mdash; 40 images &mdash; March 2026
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <button class="close" aria-label="Close">&times;</button>
+        <img id="lightbox-img" src="" alt="Full size preview">
+    </div>
+
+    <script>
+        function openLightbox(card) {
+            const src = card.querySelector('img').src;
+            document.getElementById('lightbox-img').src = src;
+            document.getElementById('lightbox').classList.add('active');
+        }
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+        }
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') closeLightbox();
+        });
+    </script>
+
+</body>
+
+</html>

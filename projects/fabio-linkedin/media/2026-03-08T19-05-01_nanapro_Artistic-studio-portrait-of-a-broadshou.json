@@ -1,0 +1,24 @@
+{
+  "prompt": "Artistic studio portrait of a broad-shouldered man in his mid-50s with dark hair brushed back and a full silver-gray beard, wearing a black leather jacket, textured dark concrete wall as backdrop, single bare bulb Edison light creating warm hard shadows, arms crossed, looking directly into camera with intensity, gritty editorial magazine cover portrait, high contrast, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImages": [
+    "./projects/fabio-linkedin/ref-05.jpg"
+  ],
+  "timestamp": "2026-03-08T19:05:01.738Z",
+  "elapsed": "32.9s",
+  "files": [
+    {
+      "name": "2026-03-08T19-05-01_nanapro_Artistic-studio-portrait-of-a-broadshou.jpg",
+      "size": "0.45MB",
+      "url": "https://replicate.delivery/xezq/y8nM2I04MoqtLdLVIRQTwIBGMaQB8bh9S4CzdDTWjufu0bHLA/tmp_zfmmmdm.jpeg"
+    }
+  ]
+}

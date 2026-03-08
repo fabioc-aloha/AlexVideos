@@ -1,0 +1,22 @@
+{
+  "prompt": "A confident Brazilian man in his 30s wearing a smart dark shirt, sitting at a modern desk with an open laptop and a stack of published books beside him, soft warm lighting from a window, shallow depth of field, thoughtful expression, creative workspace, editorial portrait",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImage": "./projects/fabio-linkedin/ref-03.png",
+  "timestamp": "2026-03-08T18:04:47.917Z",
+  "elapsed": "38.1s",
+  "files": [
+    {
+      "name": "2026-03-08T18-04-47_nanapro_A-confident-Brazilian-man-in-his-30s-wea.jpg",
+      "size": "0.31MB",
+      "url": "https://replicate.delivery/xezq/oCmik1Hf47RVZaHxlKiYdve8XdPRLy4cZO1kHPtV0RXfhtdsA/tmpn5_aqlxu.jpeg"
+    }
+  ]
+}

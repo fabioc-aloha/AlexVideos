@@ -1,0 +1,24 @@
+{
+  "prompt": "Cinematic studio portrait of a broad-shouldered man in his mid-50s with dark hair brushed back and a thick silver-gray beard, wearing a dark charcoal turtleneck, deep black backdrop, single hard light from the side creating dramatic split lighting half the face illuminated half in shadow, smoke haze in the air catching the light beam, moody editorial, Annie Leibovitz inspired, photorealistic",
+  "model": "google/nano-banana-pro",
+  "modelName": "Nano Banana Pro",
+  "aspectRatio": "1:1",
+  "resolution": "default",
+  "style": null,
+  "outputFormat": "default",
+  "seed": null,
+  "count": 1,
+  "mode": "image-to-image",
+  "referenceImages": [
+    "./projects/fabio-linkedin/ref-05.jpg"
+  ],
+  "timestamp": "2026-03-08T19:02:49.541Z",
+  "elapsed": "31.1s",
+  "files": [
+    {
+      "name": "2026-03-08T19-02-49_nanapro_Cinematic-studio-portrait-of-a-broadsho.jpg",
+      "size": "0.39MB",
+      "url": "https://replicate.delivery/xezq/I0G0T9OoQoqrM9fjuYcZaZu9sSlG8KwxrJdZ8XTzT13szbHLA/tmp1a7l66sh.jpeg"
+    }
+  ]
+}
